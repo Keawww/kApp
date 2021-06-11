@@ -1,0 +1,26 @@
+.logo {
+	height: 60px;
+	width: 70px;
+	margin: 10% 0 0 30%;
+}
+
+.site-layout .site-layout-background {
+	background-color: white;
+}
+
+.page-title {
+	color: turquoise;
+}
+
+.ant-list-item:hover {
+	background-color: whitesmoke;
+	box-shadow: 0 0 4px #eee;
+}
+
+.c-dodgerblue {
+	color: dodgerblue;
+}
+
+.c-hotpink {
+	color: hotpink;
+}
