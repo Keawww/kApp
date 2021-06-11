@@ -374,7 +374,7 @@ const Pomodoro = () => {
 
 	const setTitle = () => {
 		return <span style={{ color: mainColor, fontSize: '1.5em' }}>
-			Pomodoro <Badge style={{ backgroundColor: subColor }} count={numRec} overflowCount={999} />
+			Pomodoro XXX <Badge style={{ backgroundColor: subColor }} count={numRec} overflowCount={999} />
 			<div style={{ color: 'lightgray', fontSize: '0.4em', fontWeight: 'normal', marginTop: -15 }}>
 				{ version }
 			</div>
