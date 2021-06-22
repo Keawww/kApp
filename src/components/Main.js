@@ -81,7 +81,7 @@ const Main = () => {
 					style={{ position: 'fixed', zIndex: 2, width: '80%', height: '100%' }}
 				>
 					<div>
-						<Tooltip title="iService version 6">
+						<Tooltip title="kApp v7">
 							<img src={logo} className="logo" />
 						</Tooltip>
 					</div>
@@ -156,7 +156,7 @@ const Main = () => {
 							gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
 						>
 							<Col span={1}>
-								<Tooltip title="iService version 6">
+								<Tooltip title="kApp v7">
 									<img src={logo} style={{ height: '12%', marginLeft: '-30px'}} />
 								</Tooltip>
 							</Col>

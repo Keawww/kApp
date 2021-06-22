@@ -269,11 +269,19 @@ export const chartLineGetTrading = async (o) => {
 
 	const header = await createToken();
 
-	let period = o
+	let path = ''
+
+	if ( o.start === undefined ) {
+		path = urlTrading + "chartline/" + o
+	} else {
+		path = urlTrading + "chartlineport/" + o.o + '.' + o.start + '.' + o.end
+	}
+
+	// console.log("PATH: ", path);
 
 	try {
 
-		const res = await axios.get(urlTrading + "chartline/" + period, header);
+		const res = await axios.get(path, header);
 
 		return res.data;
 
@@ -659,9 +667,6 @@ export const portfolioGet = async (o) => {
 	}
 
 } // END: portfolioGet
-
-
-
 
 
 

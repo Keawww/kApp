@@ -111,25 +111,6 @@ const Trading = () => {
 
 		const chartData = await chartGetTrading(null);
 
-		// chartData.forEach((oo) => {
-
-		// 	let min = 0
-
-		// 	o.forEach((res) => {
-
-		// 		if ( oo.task == res.task ) {
-		// 			min+= ( res.minute / 60 )
-		// 		}
-		// 	})
-
-		// 	tmp.push({label: oo.task, data: min})
-		// 	// labels.push(oo.task)
-		// 	// datas.push(min)
-
-		// })
-
-		// tmp.sort((a, b) => { return b.data - a.data })
-
 		chartData.forEach((o) => {
 
 			labels.push(o.name)

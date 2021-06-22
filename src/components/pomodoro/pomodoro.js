@@ -374,7 +374,7 @@ const Pomodoro = () => {
 
 	const setTitle = () => {
 		return <span style={{ color: mainColor, fontSize: '1.5em' }}>
-			Pomodoro XXX <Badge style={{ backgroundColor: subColor }} count={numRec} overflowCount={999} />
+			Pomodoro <Badge style={{ backgroundColor: subColor }} count={numRec} overflowCount={999} />
 			<div style={{ color: 'lightgray', fontSize: '0.4em', fontWeight: 'normal', marginTop: -15 }}>
 				{ version }
 			</div>
@@ -420,7 +420,7 @@ const Pomodoro = () => {
 
 		if ( o !== null ) {
 
-			// console.log("showDrawer: ", o);
+			// console.log("showDrawer: ", moment.utc(o.cdate));
 
 			setDrawerTitle("Pomodoro (Edit)")
 
@@ -432,7 +432,8 @@ const Pomodoro = () => {
 				task: o.task,
 				subtask: o.subtask,
 				minute: o.minute,
-				cdate: o.cdate !== null ? moment(o.cdate) : null
+				// cdate: o.cdate !== null ? moment(o.cdate) : null
+				cdate: o.cdate !== null ? moment.utc(o.cdate) : null
 			})
 
 		} else {

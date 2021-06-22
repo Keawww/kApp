@@ -218,7 +218,7 @@ const Export = () => {
 					content += "( " +
 						oo._id + ", '" +
 						// moment.tz(oo.cdate, 'Asia/Bangkok') + "', '" +
-						moment(oo.cdate).format('DD-MM-YYYY HH:mm:ss') + "', '" +
+						moment(oo.cdate).format('YYYY-MM-DD HH:mm:ss') + "', '" +
 						// oo.cdate + "', '" +
 						oo.girl + "',' " +
 						oo.place + "',' " +
