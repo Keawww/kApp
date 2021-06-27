@@ -6,8 +6,8 @@ import moment from 'moment'
 // const urlTrading = 'https://y-back.herokuapp.com/trading'
 
 // var moment = require('moment-timezone');
-// const host = 'http://localhost:3001/'
-const host = 'https://y-back.herokuapp.com/'
+const host = 'http://localhost:3001/'
+// const host = 'https://y-back.herokuapp.com/'
 const url = host + '/api'
 
 

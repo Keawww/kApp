@@ -6,6 +6,7 @@ import Coin from './coin/coin'
 import Exp from './exp/exp'
 import ExpMob from './exp-mob/exp-mob'
 import Export from './export/export'
+import kMM from './kmm/kmm'
 import Pomodoro from './pomodoro/pomodoro'
 import Portfolio from './portfolio/portfolio'
 import Trading from './trading/trading'
@@ -107,7 +108,7 @@ const Main = () => {
 						</Menu.Item>
 
 						<SubMenu key="3" icon={<DollarCircleOutlined />} title="Coins">
-							<Menu.Item key="3" icon={<DollarCircleOutlined />}>
+							<Menu.Item key="31" icon={<DollarCircleOutlined />}>
 								<Link to="/Coin/0">Coins</Link>
 							</Menu.Item>
 							<Menu.Item key="7" icon={<DollarCircleOutlined />}>
@@ -139,6 +140,10 @@ const Main = () => {
 
 						<Menu.Item key="8" icon={<DownloadOutlined />}>
 							<Link to="/Export/0">Export SQL</Link>
+						</Menu.Item>
+
+						<Menu.Item key="11" icon={<DownloadOutlined />}>
+							<Link to="/kMM/0">kMM</Link>
 						</Menu.Item>
 
 					</Menu>
@@ -199,6 +204,7 @@ const Main = () => {
 								<Route path="/exp/:keyword" component={Exp} />
 								<Route path="/exp-mob/:keyword" component={ExpMob} />
 								<Route path="/export/:keyword" component={Export} />
+								<Route path="/kmm/:keyword" component={kMM} />
 							</Switch>
 						</div>
 					</Content>

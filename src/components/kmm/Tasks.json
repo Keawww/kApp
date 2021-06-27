@@ -1,0 +1,1134 @@
+{
+	"root": {
+		"id": "ifrwrsnv",
+		"text": "Tasks",
+		"notes": null,
+		"icon": "fa-leaf",
+		"layout": "map",
+		"children": [
+			{
+				"id": "wycsafby",
+				"text": "Administration",
+				"notes": null,
+				"side": "left",
+				"icon": "fa-archive",
+				"value": "sum",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "zviwvvyy",
+						"text": "Rearrange Data<br>",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "qokxtjsm",
+								"text": "Mind Map<br>",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ubttayqn",
+										"text": "Trips",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "saicnlek",
+												"text": "2021-06-25",
+												"notes": null,
+												"value": 60
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "cumfvxdt",
+								"text": "Excel",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "rogehmjh",
+										"text": "FMs",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "dhejflbs",
+												"text": "2021-06-22",
+												"notes": null,
+												"value": 65
+											},
+											{
+												"id": "beqywsjp",
+												"text": "2021-06-27",
+												"notes": null,
+												"value": 5
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "kcpargdw",
+				"text": "Core Responsibilities",
+				"notes": null,
+				"side": "left",
+				"color": "#33e",
+				"icon": "fa-laptop",
+				"value": "sum",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "dfhnxvkv",
+						"text": "Trading",
+						"notes": null,
+						"icon": "fa-exchange",
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "rofshbzx",
+								"text": "Stock",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "jkvicuue",
+										"text": "2021-06-21",
+										"notes": null,
+										"value": 15
+									},
+									{
+										"id": "iztkkpka",
+										"text": "2021-06-22",
+										"notes": null,
+										"value": 240
+									},
+									{
+										"id": "rjkxrxcj",
+										"text": "2021-06-23",
+										"notes": null,
+										"value": 180
+									},
+									{
+										"id": "pbeeclox",
+										"text": "2021-06-25",
+										"notes": null,
+										"value": 60
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "pzhgsygz",
+						"text": "1ness",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "heckwnex",
+								"text": "Apps",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "zeesexto",
+										"text": "Design",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "casbqtfr",
+												"text": "2021-06-23",
+												"notes": null,
+												"value": 10
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "tknqwkap",
+						"text": "Omelet",
+						"notes": null,
+						"color": "#fa3",
+						"icon": "fa-bullseye",
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "oditnjgs",
+								"text": "Meeting",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "qneeawui",
+										"text": "Tech Team<br>",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "aspeypzx",
+												"text": "2021-06-21",
+												"notes": null,
+												"value": 45
+											}
+										]
+									},
+									{
+										"id": "trkumdqy",
+										"text": "Opsta",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "sqmcszxj",
+												"text": "AWS Securities<br>",
+												"notes": null,
+												"value": 40
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "ygsxebti",
+								"text": "Projects",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ifewvdvn",
+										"text": "Existing",
+										"notes": null,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "ckeszwpg",
+												"text": "Krungsri Auto<br>",
+												"notes": null,
+												"icon": "fa-car"
+											}
+										]
+									},
+									{
+										"id": "dtbfywyc",
+										"text": "Internal",
+										"notes": null
+									},
+									{
+										"id": "pyhcaonk",
+										"text": "New",
+										"notes": null
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "ngzqhngm",
+						"text": "SM",
+						"notes": null,
+						"icon": "fa-bus",
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "brrkotzf",
+								"text": "Apps",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ylhfwcsf",
+										"text": "Member",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "ousuayeq",
+												"text": "Initial",
+												"notes": null
+											}
+										]
+									},
+									{
+										"id": "ffldqdri",
+										"text": "Setup",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "rfswwbcc",
+												"text": "Design",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "jjkbcrqr",
+														"text": "2021-06-23",
+														"notes": null,
+														"value": 15
+													}
+												]
+											},
+											{
+												"id": "swojonno",
+												"text": "Master Data<br>",
+												"notes": null,
+												"children": [
+													{
+														"id": "pntyqdwj",
+														"text": "Courier Price",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "qphvxwnz",
+								"text": "Meeings",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "twstcgmr",
+										"text": "Weekly",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "ujkrnmsq",
+												"text": "2021-06-20",
+												"notes": null,
+												"value": 45
+											},
+											{
+												"id": "oucpafyx",
+												"text": "2021-06-27",
+												"notes": null,
+												"value": 75
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "gatkdxjb",
+				"text": "Free Time",
+				"notes": null,
+				"side": "left",
+				"color": "#3e3",
+				"icon": "fa-gamepad",
+				"value": "sum",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "soifexsh",
+						"text": "Manga",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "cptwwzbj",
+								"text": "Kingdom",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "ervzpyrf",
+										"text": "2021-06-22",
+										"notes": null,
+										"value": 17
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "cpvfirdb",
+						"text": "Movies",
+						"notes": null,
+						"value": "sum",
+						"children": [
+							{
+								"id": "roonzphe",
+								"text": "Action",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "ppjvazvw",
+										"text": "Rurouni Kenshin: Origins (2012)",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "sfmfqrxd",
+												"text": "2021-06-22",
+												"notes": null,
+												"value": 10
+											},
+											{
+												"id": "icqfxrxq",
+												"text": "2021-06-23",
+												"notes": null,
+												"value": 20
+											}
+										]
+									},
+									{
+										"id": "uaiigchp",
+										"text": "Rurouni Kenshin: Kyoto Inferno (2014)",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "tgojufef",
+												"text": "2021-06-23",
+												"notes": null,
+												"value": 15
+											},
+											{
+												"id": "nexzwhky",
+												"text": "2021-06-26",
+												"notes": null,
+												"value": 30
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "vjeyqtom",
+						"text": "Surf",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "phptmpsi",
+								"text": "Apps",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "umcvyuqw",
+										"text": "Mind map<br>",
+										"notes": null,
+										"value": 90
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "agygcgez",
+						"text": "Youtube",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "ilxjrfgk",
+								"text": "Investment",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ggawjqnh",
+										"text": "ySocial",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "qrwqiorb",
+												"text": "2021-06-22",
+												"notes": null,
+												"value": 15
+											},
+											{
+												"id": "avrdrbit",
+												"text": "2021-06-23",
+												"notes": null,
+												"value": 45
+											}
+										]
+									},
+									{
+										"id": "nxqaqico",
+										"text": "Money Hero<br>",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "bdzrpgbf",
+												"text": "2021-06-21",
+												"notes": null,
+												"value": 30
+											},
+											{
+												"id": "slfradoq",
+												"text": "2021-06-26",
+												"notes": null,
+												"value": 15
+											}
+										]
+									},
+									{
+										"id": "krygoxsp",
+										"text": "Boy Tha pha chan<br>",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "mhhfblcm",
+												"text": "2021-06-26",
+												"notes": null,
+												"value": 5
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "hhhcbtkt",
+								"text": "Motorcycle",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ncoqdrfr",
+										"text": "Baby Biker<br>",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "knpgvalx",
+												"text": "2021-06-25",
+												"notes": null,
+												"value": 20
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "jjbdqkgz",
+								"text": "Apps",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "cckdaqbg",
+										"text": "Google Drive API<br>",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "bkbfcjqn",
+												"text": "2021-06-26",
+												"notes": null,
+												"value": 20
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "nyvydrlf",
+				"text": "Personal Growth<br>",
+				"notes": null,
+				"side": "left",
+				"color": "#e33",
+				"icon": "fa-child",
+				"value": "sum",
+				"children": [
+					{
+						"id": "loxiifvx",
+						"text": "Apps",
+						"notes": null,
+						"value": "sum",
+						"status": "computed",
+						"children": [
+							{
+								"id": "zwwtcvpl",
+								"text": "kMM",
+								"notes": null,
+								"icon": "fa-bullseye",
+								"value": "sum",
+								"status": "computed",
+								"children": [
+									{
+										"id": "fwgvkqnu",
+										"text": "Access Google<br>",
+										"notes": null,
+										"value": "sum",
+										"status": "no",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "izaisyta",
+												"text": "2021-06-26",
+												"notes": null,
+												"value": 30
+											}
+										]
+									},
+									{
+										"id": "jsdxtgpi",
+										"text": "Restructure",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "shdntjom",
+												"text": "2021-06-25",
+												"notes": null,
+												"value": 70
+											}
+										]
+									},
+									{
+										"id": "vowhodum",
+										"text": "Recursive Solve<br>",
+										"notes": null,
+										"value": "sum",
+										"status": "no",
+										"children": [
+											{
+												"id": "zcmyityw",
+												"text": "2021-06-27",
+												"notes": null,
+												"value": 200,
+												"collapsed": 1
+											}
+										]
+									},
+									{
+										"id": "suadbvkn",
+										"text": "Report on React<br>",
+										"notes": null,
+										"value": "sum",
+										"status": "no",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "ajrxcgff",
+												"text": "2021-06-26",
+												"notes": null,
+												"value": 210
+											},
+											{
+												"id": "jberatqm",
+												"text": "2021-06-27",
+												"notes": null,
+												"value": 40
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "qycwlkfe",
+				"text": "Trips",
+				"notes": null,
+				"side": "right",
+				"color": "#00CED1",
+				"icon": "fa-tripadvisor",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "rztmiyby",
+						"text": "Chiang Rai<br>",
+						"notes": null,
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "qcdgmuth",
+								"text": "2005",
+								"notes": null,
+								"children": [
+									{
+										"id": "opgxkywe",
+										"text": "G-ABLE",
+										"notes": null,
+										"children": [
+											{
+												"id": "svypuxlr",
+												"text": "<img src=\"https://drive.google.com/uc?id=16ioPOtZ8fPX_MUoYS9eWtuGxHUF0e4Fy\" width=\"300\">",
+												"notes": null
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "fobrslxo",
+						"text": "Kanchanaburi",
+						"notes": null,
+						"color": "#3e3",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "irczaqje",
+								"text": "2020",
+								"notes": null,
+								"children": [
+									{
+										"id": "fyzwbcwx",
+										"text": "Pilok",
+										"notes": null,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "efbopqqv",
+												"text": "Riding",
+												"notes": null,
+												"children": [
+													{
+														"id": "zpuuqhzq",
+														"text": "Lodge",
+														"notes": null,
+														"collapsed": 1,
+														"children": [
+															{
+																"id": "hxkyuvqc",
+																"text": "<img src=\"https://lh3.googleusercontent.com/Kx_mU4uCFSJHCrTM9QSXYDRhV7h1LjZoHl4i8MJptj7TogIogRRtL8DPyr-G2AFbdJrZ-cfIZrfr1mXLjOn-J_IjSHCDrmiXHpaZkwzSsUEIiLzfIdqarxQ2y7cJmFpwSLvK6RBuuSNJDXs-HTEdrIj54tylEmAZsX_SuvPuzuHhUVpE3EuF6aYAuX3J76Z5XEnGf6rxhBnwXnc3CK8eeu2aLM7pth4ehMON47wODElOL-kZnDh_Oi-f5s3iHjN4lujuYNoEcS-ACzzLZkbrgByrhLlut0uNTKg6ne1h7cCA7kjY8GWAfDLZUeoKivFL-kokEfDSrT5HcX8ETKPr4S4flHdVPMn9jjLAcRlPA4X0CE4Gox-woW1t8SlIVPDhPRhtG06CMoQ_t6EOA1zOHjiPPLszKLEdVs69x53WWB5weqlnl7MD86WmGkPviM1ia192TAYN_jn5lgjXbu967ylWIypreEUSjnZ23pnDEty-iPRWhO1R01XFRlO7E-UeBkwhjj34E7wDdh1K5MkKFGeSPHjChKz7uAP_Zw59NgO8AovkW12ppyO0XREtZMjxCdviBnlJ8-ngZI-Yk9Rh1Nqu01HTUameeFYAoX2n3pC9g9J0dHz21SN8E5Eixcju8eFSF8qaKFompZ2Qpg9j7Dls3yBBSoKP0Ift-qgzZcnj2AM8m7dB3gIJEHUx7QbFnweW10EM-j4CR-BRUkgsi4A=w300-h100-no?authuser=0\">",
+																"notes": null
+															}
+														]
+													},
+													{
+														"id": "xkkkwpea",
+														"text": "Rayaburi",
+														"notes": null,
+														"collapsed": 1,
+														"children": [
+															{
+																"id": "eaxjiixm",
+																"text": "<img src=\"https://lh3.googleusercontent.com/fife/AAWUweXQRgK9crXNR-hEpodFO_aPmbQqUaNc7ebo5PDo81h1hh1Z1fq9w6yMuOjvJnB1Bz-rQKWkDUTfq9wlBem5iEdIF-aixH3v806r1fXuSvJ4a0Paebd_VjIfS9mzwS94QN-0_Ovbvfy1qRA4OUQVdXgRdQBJ4sStxUwIN2ZKvS0660cB4CG-9xvyJaMx3cTrL8kEDrQTeg2ZymgUVK_T5wfMsh0FgH33Xqga-eujnJ2ex8Woqa2Ue83H6aW4ton1roB9vbXNMm1jcGH1fjez0iTXcRztp9jPlzY-7ZVeQcNVwXE4W8mSxRbeiP-KwYt7L7TXCdxOLCPNFmcrJ5yxKJTusxxkavN1CzEoQYcOJmiL6UdjkTilEDuff-vH5aGcTlbdKpLnWnTgcoqyEyO2M4Sa7TgX0BD7oLvSO0nvw0PC16AYePRMDAP2kpRSrV53oKE-wgIng8M8c3GOCP7u5a4uRrOS1lnAQjISsK2gNFNmKucBgZEW6r87R_Ne9uDSTkqtk-vslsm4jX4EbEyrx-pKZyfp4TFnOiJen13_IFaf8dZSH8T-IV55LYD_p0yDEOr_fohK6CT5TVGT1h-yjOTC5if_dsgNWD6rs5mWZen0fqRo2N3o6e0tTfhOmuhNRgVmlO3tC2xIcZlWJ5cmpgEgI3WL6h-Iv5fN1UL7gT1Z1jETmFja2UtiAf7uJ1XVsrLNwumOMv95xITlzERHpfxK2kM2ndsCfX_52Gn4BUeD=s2454-w454-h380-no?authuser=0\">",
+																"notes": null
+															},
+															{
+																"id": "kmdcougc",
+																"text": "<img src=\"https://lh3.googleusercontent.com/fife/AAWUweXwV31XV7fjekUHulF2i4Qe_N71LJ3QGoZKDBJfwVJWJvZz6OSyzFxzXMiR-0z7N5R85Iwlyp8GIUjsWyzEkRRxt9XeWK4sVS1I5_ZTCHxgPXVwzW8BFBjhU8qDmApz8tAvLjVEcKQup4T7DzPO-jPqp5ibsQcIK1FwU2oNoZ34gfZIXbX2mQQK1qMsfCNtnMOuaZcmBQHMBRU47flpzsaiDtEWF8bmX0NeEVEr464kydD1Cikywjiek4i1B-SEatXlNh-RMa4qr0JRDAcTiSA1x7A83u4idI_5S8vNWZNcB_NqyjFTPpCaP508KYEuZxkDnxJ8XDB7TaW6rPc4L10v6b_Y_mnQ-ME4d59mdQU7yiobW76MQ1MIqL-ELYP65wrEjaSoQN6qFDIsliousWIlWeC9SW4bvXnaCNrm6fGfcEGtfqIJbbLzUR-LzN4Uka0cEibOq-hEXhkVFKHPcHvXfGZQCPF4KF9gFTC0GDv-wAgE9HA6MD_d2Tv48zwMjuh_GSH-uzkjI6DrU1DMPEACdxPtokdoq5hblqyvdG5VJ3WUeg4PUNlT9UXFofQgdnzrOrAIvMIMlYQIfti7rr1fGO2qh7eWNBSVTgm-vl6rcxBKw8ze95cRKp4AVCKYkijOzGUVm4nM71x5XCU9xNpvqFCuHPxMwe9WMCi5sRzqLrFpcHgMfrlhrgNMDXg4ONoOc8hEYQZd7WzG40tB5uDcDU9v3uMnR8uh=s456-w456-h380-no?authuser=0\">",
+																"notes": null
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "imahumyl",
+										"text": "Camping",
+										"notes": null,
+										"children": [
+											{
+												"id": "svmywjet",
+												"text": "Eng Nam Resort<br>",
+												"notes": null,
+												"collapsed": 1
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "tagnanyp",
+						"text": "Pattaya",
+						"notes": null,
+						"children": [
+							{
+								"id": "bnubnasp",
+								"text": "2020",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "oxpsvnwl",
+										"text": "Riding",
+										"notes": null,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "bpmzjbwh",
+												"text": "2020-12-07",
+												"notes": null,
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "enagktch",
+														"text": "<img src=\"https://lh3.googleusercontent.com/fife/AAWUweU2wrxflN_iOAhgfeXCQlzzTvlCjJUU-TaWiUsCA2aOgKYl3uMH4t71BpaOxvkoHss1s9W2U1x5h8vne994l5Oqt_u1KVXr1nNmIHyC--tnb6Yy45Ro_8K8J76gpaTm_GSxjoFWv9ImBbnNlACMW2Z8qDe9IITXJqad2kXPXtduXCGkQ3tdYdx0BnnDAN_mzOJBD6kbHXTLchn8r8HhoUmqHdqiws_ZgoePsuJOrWhFThbZUNkSwclYBjewB6NZD0iXmSDlzbmjDC_R-oCHNPWXl06aWmSGa-MA5zlDonADmkLx7tnOTi8h4STjfIsrYf5onnaf22DSz3KpDUKHFMB3GRLeFi4dlUgueSA2IJLl7QnfCtJJqEDSSgBafsb-Y-PhvLdLs6LCx3XiOMjwlTtrzFrXH3fclefEjD4cxQZE1IKfrmg6avXO62Uog2rhwJ-qYUOne37PbzKiSYQHZoq8vg0X48oGveytPw0zOWDagL_kotYNit8TS0ri_VkLv_iqwb7-XAJ_7ajddjtikuZO4p6WiJbGEK47HGjlw3SuYM6cHJvj9IegoMDY86PAO6DcR9BcNXdSkPlNSFongkg3GeDFhw7rE7JCLbvNYtVnvpZsWRDLeXXPNtHEPs08mEN81L0ZntFFDGeWLuPQGQfMWFBS5d6le12gexwvZ8_sD2-D1KmxB72OdI1oLhJ5aSMQprvXS07FqU4sfpQrxICwQCMLsEylVMQiuNSratWz=s400-w2456-h1380-no?authuser=0\">",
+														"notes": null
+													},
+													{
+														"id": "fvxjctai",
+														"text": "<img src=\"https://lh3.googleusercontent.com/fife/AAWUweWLfcqwng9WCK3FGv3KMZ2uh45i8D7EyMuLRVDymxyEJnZ1lmuFq88E_07LI2kfX129dD3oi946FKlXIXJn6uTZY5BO7d58OmL5jY8vQ6iEz8xfE_8njsA2AI6GrO2awq-BlRWrt7693WwH9mijs19l62HWESScThL0ppjXZePgEPDSv5cRdkvIvCwTpbzQGL0OzzKpeM3TF-wXd7fxJ0a7Az-crWiVSeUR35CQnAkHFwVp-0OcOCtMBA2rcvi3_AxKkjuAHy-pt51Ay15vxvx1oqdg4MQ7d1RCMR33ZODoyR8lVkEIYhzgP_3cqsvyUpRuSrwI_EhFwRYVtsTowMA9iIRFC1NkWvfhhJs8jCAimVfiNWNCb9gEzM9Bm13yoPJJ-5XaR9Yft2v0qVu-F4DJsUioIM80j-vUnc9Kbb9vK27Q6Padi490aktRU46V3NlC317U-_4uzX2fKw8tPfGEzZ_SFNgGhjW7qKfo1XkpConozStuNXT-b7_PGTOWQZD5oGvAaEqhs_qRbp4wyMK_j0VUEX2STNJVE2DExv0zaUbFYfsOvaxxxOjFRXLHR5q3YCXW9PS2kSgYkbTFDhlPaRKK2gzuyS-ppbgCXzX0TtLbNfvqlTD7atoeZ2r3l6Zp3uEZS3zdES0I1S6-T0uS8-z799EIn36CXbiKu7SOfVCQBXSy-fheqk-MGwTm-t7m5UnppS1lAk0wczNSLlz_D4lgTpMEn79E7HbbTBOd=s400-w2454-h1380-no?authuser=0\">",
+														"notes": null
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "ojtvcklj",
+										"text": "Eating",
+										"notes": null,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "qglelnzz",
+												"text": "2020-11-13",
+												"notes": null,
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "xccykslq",
+														"text": "<img src=\"https://lh3.googleusercontent.com/fife/AAWUweVGewuGPjmu3x7odc7oSMbXr_WNMe3y_FM-zNYdt-9grWISjdmmqsH9lw2kjEX_jdbtXLbwuAzJnzX3jZjdLeCW5lMGuzYtZeH5WAXHNt8qGxvqFRYJTMKYzdg9AJ2PSYgPASNEFKQypY47-aDUlYa0ryDX-L-bC8vrCpGIu8CAzdQF0_wWd6uHocFCAzCDZOCmv_xVqgrZMxaOk5IZ5EKsVolMXOUo5vuJrsdpUDmDfAHy337C1AbwMi2Dhu5xSaC98-6xYm4HW4IHedAJe4Zcm9fl--ed0WJmi3DO-n3a3V42CQsJ6tio6wrZ9I_IxV12BGjV_go9mExWStEHM1hVRyYQ-k7eUu2d6TazG6XpzP5fIvroR-3Kftfn5fH3lLVLG6qIacgjo1mX1yd4hV7InfBM-ogzLQt1CaBLkGPAnxNmisUVTHGoMfG7KKVi00Mcwe8Yxyk4M3lnnjZNdsD0WyvreKGFTCHr9FGTUp8QYQf8buNUhAy3gqvllqXTuminJa85JKRjGkgTKeMtWa0Z1l5BpjD3n_SteOynZM4KCNfl9a9q_2bm9Rw4a0uj8F6wtDVLyoWLHeEHNml2N9UbOYkq1PARCSnGH_kUTEKGDsqaoOk8D6l0dcoUKdPnpR2MMBkHXOrwgqh9Khar8DtY7mvycaIqZqU7gIWd4tRazTD7FF7V5YiBixgbKGwXNQkCVc-vsJJ0YUdQCI4al5RK-U5YF7CjWRs_RPN5oh1hTf8V_H1C=s400-w2456-h1380-no?authuser=0\">",
+														"notes": null
+													},
+													{
+														"id": "leuyvwmf",
+														"text": "<img src=\"https://lh3.googleusercontent.com/fife/AAWUweVzhTzkQ2SwiQ9zFcEB0h_NTNMmei95UGU7nVTRG44kLnCQGBbaYynxqkmoKFdA7J0Mue40wJggax1l2dnkb-9SaWyMQXOPiGDCFw9Sl_h5ijAJco6Bz5w974WWDH6N_aP_aNPtxgh8B1Kn9KbeVTBc-bZQ8rbTAxc9ZmV8KX6wVVp8-rHjVQQ29j9vwcZKvZIuN-ki3nZ_O44eSrHhX9Q8lGugA_p2oxnhrGeYaGM7YcQpui2WCnJTbjShZmDHpL7PyAWr6mMJSFL4Iqtjae3WGzSAyXXWnrPb_rwsZZSa-LbpAV2QtYg2pZUDidX--OMwH5AdbuWaTXIvEG7Sf46SOdqiQoOu2aqlmSGeHBw-HvJXmhfAXtDXTFfV3UwFeYnDWGGtS8tV7HIE6IvylfAgwse7HDTiAWnZ84eaA01bUf09rsXwljE1myo2CTAKtNcxmjE5D4BO3rcmQKmF7yQcl0xv1YDebesDlu3LlFLE8EquaAT-rCJomQyqabV8FK1JFhPhnnlg1AnvOJuUXyiyxR9AGc0jEY5b2IZalpk907ozOX2G1NTPc9dWXssCFJqo1DUuWNYVERN02meScxETBbUlNlpQMsMblwlMQuBbqI1RdqVH71lGO7ByNRVxQyOyN-J0aPAYuDsbNj6tfEMfvsl1n8LR67InNaqsQoWB9Q5f0HU4VP5BlsHLbYScj7T0ojv3DzD21EQJKLykMqil6FAgMwzjNWAwEwAxY3_a=s400-w2454-h1380-no?authuser=0\">",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "miuktfvg",
+						"text": "Petchburi",
+						"notes": null,
+						"color": "#3dd",
+						"collapsed": 1
+					}
+				]
+			},
+			{
+				"id": "ojwrukde",
+				"text": "TRADING",
+				"notes": null,
+				"side": "right",
+				"color": "#d3d",
+				"icon": "fa-money",
+				"value": "sum",
+				"children": [
+					{
+						"id": "felgqadu",
+						"text": "7UP<br>",
+						"notes": null,
+						"value": "sum",
+						"status": "computed",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "vseqcrqv",
+								"text": "2021-06-25",
+								"notes": "<div>2021-06-25|360</div>",
+								"value": 5.78
+							},
+							{
+								"id": "coklygsn",
+								"text": "2021-06-28",
+								"notes": "<div>2021-06-25|360</div>",
+								"status": "no"
+							}
+						]
+					},
+					{
+						"id": "xsqsgnvc",
+						"text": "AEC",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "twxddbic",
+								"text": "2021-06-24",
+								"notes": "<div>2021-06-23|462<br></div>",
+								"value": 57.34
+							},
+							{
+								"id": "mppjvtag",
+								"text": "2021-06-11",
+								"notes": "<div>2021-06-10|11058<br></div>",
+								"value": -57
+							},
+							{
+								"id": "vimfqnuh",
+								"text": "2021-06-11",
+								"notes": "<div>2021-06-10|10670<br></div>",
+								"value": 107.18
+							},
+							{
+								"id": "mrlhfxlp",
+								"text": "2021-06-25",
+								"notes": "<div>2021-06-24|154<br></div>",
+								"value": 25.44
+							}
+						]
+					},
+					{
+						"id": "jibbiqlh",
+						"text": "BROOK",
+						"notes": null,
+						"value": "sum",
+						"status": "computed",
+						"children": [
+							{
+								"id": "wjgfzvbe",
+								"text": "2021-06-28",
+								"notes": null,
+								"status": "no"
+							}
+						]
+					},
+					{
+						"id": "vvmcizvj",
+						"text": "OCEAN-W3",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "obfgsllt",
+								"text": "2021-06-25",
+								"notes": null,
+								"value": 9.6
+							}
+						]
+					},
+					{
+						"id": "goxrsyok",
+						"text": "PIMO",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "vebdmsur",
+								"text": "2020-10-28",
+								"notes": null,
+								"value": 512
+							},
+							{
+								"id": "uvchltmz",
+								"text": "2020-12-08",
+								"notes": null,
+								"value": 312
+							},
+							{
+								"id": "vugcqxsw",
+								"text": "2021-01-19",
+								"notes": null,
+								"value": 162.33
+							}
+						]
+					},
+					{
+						"id": "dvluvjwx",
+						"text": "GUNKUL",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "btrpdkry",
+								"text": "2021-06-17",
+								"notes": null,
+								"value": -30
+							},
+							{
+								"id": "fvyxsrzz",
+								"text": "2021-06-24",
+								"notes": null,
+								"value": 20.5
+							}
+						]
+					},
+					{
+						"id": "zvscnmwl",
+						"text": "SIRI",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "anuvwayd",
+								"text": "2021-05-27",
+								"notes": "<div>2021-05-19|1.36|1.37</div>",
+								"value": 27.09
+							},
+							{
+								"id": "mwqulnii",
+								"text": "2021-05-28",
+								"notes": null,
+								"value": 67.83
+							},
+							{
+								"id": "vgmhivns",
+								"text": "2021-05-28",
+								"notes": null,
+								"value": 2.12
+							}
+						]
+					},
+					{
+						"id": "wiuirmxc",
+						"text": "TTA",
+						"notes": null,
+						"value": "sum",
+						"children": [
+							{
+								"id": "uiudngbu",
+								"text": "2021-06-25",
+								"notes": null,
+								"value": 34.59,
+								"children": [
+									{
+										"id": "swlesuwo",
+										"text": "100|16.03|16.4",
+										"notes": null
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "wmzzonhd",
+				"text": "Token",
+				"notes": null,
+				"side": "right",
+				"color": "#fa3",
+				"icon": "fa-intersex",
+				"value": "sum",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "gifyauvr",
+						"text": "Me",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "pqfmmslq",
+								"text": "Home",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "jvgykvqf",
+										"text": "2016-06-26",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "mvnaqlup",
+												"text": "23:40",
+												"notes": null,
+												"value": 1
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gvlfntjr",
+						"text": "Part A<br>",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "yuuecjta",
+								"text": "Tha Tha<br>",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "oznjgwwb",
+										"text": "2016-06-22",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "rsqbsnte",
+												"text": "21:00",
+												"notes": null,
+												"value": 1
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
