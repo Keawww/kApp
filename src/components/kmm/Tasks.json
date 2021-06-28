@@ -85,7 +85,6 @@
 				"color": "#33e",
 				"icon": "fa-laptop",
 				"value": "sum",
-				"collapsed": 1,
 				"children": [
 					{
 						"id": "dfhnxvkv",
@@ -100,6 +99,7 @@
 								"text": "Stock",
 								"notes": null,
 								"value": "sum",
+								"collapsed": 1,
 								"children": [
 									{
 										"id": "jkvicuue",
@@ -124,6 +124,12 @@
 										"text": "2021-06-25",
 										"notes": null,
 										"value": 60
+									},
+									{
+										"id": "nwsihxup",
+										"text": "2021-06-28",
+										"notes": null,
+										"value": 180
 									}
 								]
 							}
@@ -141,7 +147,6 @@
 								"text": "Apps",
 								"notes": null,
 								"value": "sum",
-								"collapsed": 1,
 								"children": [
 									{
 										"id": "zeesexto",
@@ -154,6 +159,28 @@
 												"text": "2021-06-23",
 												"notes": null,
 												"value": 10
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "tfadphhy",
+								"text": "Meeting",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "wnvgxaoa",
+										"text": "With p'Rit<br>",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "zjsididb",
+												"text": "2021-06-21",
+												"notes": null,
+												"value": 30
 											}
 										]
 									}
@@ -379,13 +406,31 @@
 						"text": "Movies",
 						"notes": null,
 						"value": "sum",
+						"collapsed": 1,
 						"children": [
 							{
 								"id": "roonzphe",
 								"text": "Action",
 								"notes": null,
 								"value": "sum",
+								"status": "computed",
+								"collapsed": 1,
 								"children": [
+									{
+										"id": "pfebzink",
+										"text": "Anacondas: The hunt for blood orchid (2004)",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "sqadsotu",
+												"text": "2021-06-09",
+												"notes": null,
+												"value": 45
+											}
+										]
+									},
 									{
 										"id": "ppjvazvw",
 										"text": "Rurouni Kenshin: Origins (2012)",
@@ -412,6 +457,8 @@
 										"text": "Rurouni Kenshin: Kyoto Inferno (2014)",
 										"notes": null,
 										"value": "sum",
+										"status": "no",
+										"collapsed": 1,
 										"children": [
 											{
 												"id": "tgojufef",
@@ -424,6 +471,164 @@
 												"text": "2021-06-26",
 												"notes": null,
 												"value": 30
+											}
+										]
+									},
+									{
+										"id": "wgvfpcyg",
+										"text": "xTreme",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "yovoiman",
+												"text": "2021-06-09",
+												"notes": null,
+												"value": 15
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "dhoeikwv",
+								"text": "Animation",
+								"notes": null,
+								"value": "sum",
+								"status": "computed",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "nuftimeh",
+										"text": "Jujutsu Kaisen (2021)",
+										"notes": null,
+										"value": "sum",
+										"status": "no",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "zwstnvjf",
+												"text": "Season 1<br>",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "stdimmch",
+														"text": "2021-06-03",
+														"notes": null,
+														"value": 35
+													},
+													{
+														"id": "olzqgiqn",
+														"text": "2021-06-04",
+														"notes": null,
+														"value": 15,
+														"layout": "map"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "uzfzpozo",
+										"text": "Trese (2021)",
+										"notes": null,
+										"value": "sum",
+										"status": "no",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "itldhmfw",
+												"text": "2021-06-12",
+												"notes": null,
+												"value": 15
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "iquuukrb",
+								"text": "Sci-Fi",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "lazoszli",
+										"text": "Avenger: Age of Ultron (2015)",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "obhwnnhm",
+												"text": "2021-06-12",
+												"notes": null,
+												"value": 70
+											},
+											{
+												"id": "uoadrcsa",
+												"text": "2021-06-13",
+												"notes": null,
+												"value": 70
+											},
+											{
+												"id": "hwtsvdkx",
+												"text": "2021-06-14",
+												"notes": null,
+												"value": 110
+											}
+										]
+									},
+									{
+										"id": "mcpwoivo",
+										"text": "Avenger: Infinity War (2018)",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "dagohgly",
+												"text": "2021-06-13",
+												"notes": null,
+												"value": 110
+											},
+											{
+												"id": "zqfdpgih",
+												"text": "2021-06-14",
+												"notes": null,
+												"value": 15
+											}
+										]
+									},
+									{
+										"id": "kxfzseml",
+										"text": "WandaVision (2021)",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "ftghbahu",
+												"text": "Season 1<br>",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "znpaghdp",
+														"text": "2021-06-04",
+														"notes": null,
+														"value": 15
+													},
+													{
+														"id": "ejtoxxma",
+														"text": "2021-06-05",
+														"notes": null,
+														"value": 160
+													}
+												]
 											}
 										]
 									}
@@ -669,6 +874,28 @@
 												"value": 40
 											}
 										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "kmevrntw",
+						"text": "Shell Script<br>",
+						"notes": null,
+						"value": "sum",
+						"children": [
+							{
+								"id": "ulcubsgy",
+								"text": "backup script<br>",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "bgjppfvi",
+										"text": "2021-06-28",
+										"notes": null,
+										"value": 15
 									}
 								]
 							}
@@ -1047,6 +1274,26 @@
 									{
 										"id": "swlesuwo",
 										"text": "100|16.03|16.4",
+										"notes": null
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "sksordgd",
+						"text": "VIBHA",
+						"notes": null,
+						"value": "sum",
+						"children": [
+							{
+								"id": "mohprkvh",
+								"text": "2021-04-26",
+								"notes": null,
+								"children": [
+									{
+										"id": "fdctogsl",
+										"text": "8000|2.39|2.52",
 										"notes": null
 									}
 								]
