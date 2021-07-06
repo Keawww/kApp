@@ -15,6 +15,7 @@ import InvenDash from './inventory/inven-dash'
 import { Layout, Menu, Button, Row, Col, Tooltip, Avatar } from 'antd'
 import {
 	AppstoreOutlined,
+	BranchesOutlined,
 	DollarCircleOutlined,
 	DownloadOutlined,
 	HourglassOutlined,
@@ -98,6 +99,11 @@ const Main = () => {
 							<Link to="/cert/0">Service Certificate</Link>
 						</Menu.Item>
 						 */}
+
+						<Menu.Item key="11" icon={<BranchesOutlined />}>
+							<Link to="/kMM/0">kMM</Link>
+						</Menu.Item>
+
 						<Menu.Item key="5" icon={<HourglassOutlined />}>
 							<Link to="/Pomodoro/0">Pomodoro</Link>
 						</Menu.Item>
@@ -140,10 +146,6 @@ const Main = () => {
 
 						<Menu.Item key="8" icon={<DownloadOutlined />}>
 							<Link to="/Export/0">Export SQL</Link>
-						</Menu.Item>
-
-						<Menu.Item key="11" icon={<DownloadOutlined />}>
-							<Link to="/kMM/0">kMM</Link>
 						</Menu.Item>
 
 					</Menu>

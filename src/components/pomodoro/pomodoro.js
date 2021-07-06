@@ -213,6 +213,8 @@ const Pomodoro = () => {
 
 		const chartData = await chartLineGet(null);
 
+		// console.log("pomodoro - chartline: ", chartData)
+
 		const group = chartData.reduce((r, a) => {
 			r[a.type] = [...r[a.type] || [], a];
 			return r;

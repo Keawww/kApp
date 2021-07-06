@@ -7,326 +7,559 @@
 		"layout": "map",
 		"children": [
 			{
-				"id": "wycsafby",
-				"text": "Administration",
+				"id": "rlioyvse",
+				"text": "Pomodoro",
 				"notes": null,
 				"side": "left",
-				"icon": "fa-archive",
-				"value": "sum",
-				"collapsed": 1,
+				"color": "#FF69B4",
+				"icon": "fa-hourglass-half",
 				"children": [
 					{
-						"id": "zviwvvyy",
-						"text": "Rearrange Data<br>",
+						"id": "wycsafby",
+						"text": "Administration",
 						"notes": null,
+						"icon": "fa-archive",
 						"value": "sum",
+						"shape": "box",
 						"collapsed": 1,
 						"children": [
 							{
-								"id": "qokxtjsm",
-								"text": "Mind Map<br>",
+								"id": "zviwvvyy",
+								"text": "Rearrange Data<br>",
 								"notes": null,
 								"value": "sum",
 								"collapsed": 1,
 								"children": [
 									{
-										"id": "ubttayqn",
-										"text": "Trips",
+										"id": "qokxtjsm",
+										"text": "Mind Map<br>",
 										"notes": null,
 										"value": "sum",
 										"children": [
 											{
-												"id": "saicnlek",
+												"id": "ubttayqn",
+												"text": "Trips",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "saicnlek",
+														"text": "2021-06-25",
+														"notes": null,
+														"value": 60
+													}
+												]
+											},
+											{
+												"id": "iuwbylng",
+												"text": "Trading",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "pdgkorjw",
+														"text": "2021-06-28",
+														"notes": null,
+														"value": 30
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "cumfvxdt",
+										"text": "Excel",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "rogehmjh",
+												"text": "FMs",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "dhejflbs",
+														"text": "2021-06-22",
+														"notes": null,
+														"value": 65
+													},
+													{
+														"id": "beqywsjp",
+														"text": "2021-06-27",
+														"notes": null,
+														"value": 5
+													},
+													{
+														"id": "ezyffdva",
+														"text": "2021-06-28",
+														"notes": null,
+														"value": 15
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "kcpargdw",
+						"text": "Core Responsibilities",
+						"notes": null,
+						"color": "#33e",
+						"icon": "fa-laptop",
+						"value": "sum",
+						"status": "computed",
+						"shape": "box",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "dfhnxvkv",
+								"text": "Trading",
+								"notes": null,
+								"icon": "fa-exchange",
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "rofshbzx",
+										"text": "Stock",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "jkvicuue",
+												"text": "2021-06-21",
+												"notes": null,
+												"value": 15
+											},
+											{
+												"id": "iztkkpka",
+												"text": "2021-06-22",
+												"notes": null,
+												"value": 240
+											},
+											{
+												"id": "rjkxrxcj",
+												"text": "2021-06-23",
+												"notes": null,
+												"value": 180
+											},
+											{
+												"id": "pbeeclox",
 												"text": "2021-06-25",
 												"notes": null,
 												"value": 60
-											}
-										]
-									}
-								]
-							},
-							{
-								"id": "cumfvxdt",
-								"text": "Excel",
-								"notes": null,
-								"value": "sum",
-								"children": [
-									{
-										"id": "rogehmjh",
-										"text": "FMs",
-										"notes": null,
-										"value": "sum",
-										"children": [
-											{
-												"id": "dhejflbs",
-												"text": "2021-06-22",
-												"notes": null,
-												"value": 65
 											},
 											{
-												"id": "beqywsjp",
-												"text": "2021-06-27",
+												"id": "nwsihxup",
+												"text": "2021-06-28",
 												"notes": null,
-												"value": 5
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": "kcpargdw",
-				"text": "Core Responsibilities",
-				"notes": null,
-				"side": "left",
-				"color": "#33e",
-				"icon": "fa-laptop",
-				"value": "sum",
-				"children": [
-					{
-						"id": "dfhnxvkv",
-						"text": "Trading",
-						"notes": null,
-						"icon": "fa-exchange",
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "rofshbzx",
-								"text": "Stock",
-								"notes": null,
-								"value": "sum",
-								"collapsed": 1,
-								"children": [
-									{
-										"id": "jkvicuue",
-										"text": "2021-06-21",
-										"notes": null,
-										"value": 15
-									},
-									{
-										"id": "iztkkpka",
-										"text": "2021-06-22",
-										"notes": null,
-										"value": 240
-									},
-									{
-										"id": "rjkxrxcj",
-										"text": "2021-06-23",
-										"notes": null,
-										"value": 180
-									},
-									{
-										"id": "pbeeclox",
-										"text": "2021-06-25",
-										"notes": null,
-										"value": 60
-									},
-									{
-										"id": "nwsihxup",
-										"text": "2021-06-28",
-										"notes": null,
-										"value": 180
-									}
-								]
-							}
-						]
-					},
-					{
-						"id": "pzhgsygz",
-						"text": "1ness",
-						"notes": null,
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "heckwnex",
-								"text": "Apps",
-								"notes": null,
-								"value": "sum",
-								"children": [
-									{
-										"id": "zeesexto",
-										"text": "Design",
-										"notes": null,
-										"value": "sum",
-										"children": [
+												"value": 180
+											},
 											{
-												"id": "casbqtfr",
-												"text": "2021-06-23",
+												"id": "tyvetiqp",
+												"text": "2021-06-29",
 												"notes": null,
-												"value": 10
+												"value": 180
+											},
+											{
+												"id": "yvhnhsft",
+												"text": "2021-06-30",
+												"notes": null,
+												"value": 180
+											},
+											{
+												"id": "fuyahlpl",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 120
+											},
+											{
+												"id": "jzctgbqd",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 120
+											},
+											{
+												"id": "zfltmiiu",
+												"text": "2021-07-05",
+												"notes": null,
+												"value": 90
+											},
+											{
+												"id": "homkbhgg",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 180
 											}
 										]
 									}
 								]
 							},
 							{
-								"id": "tfadphhy",
-								"text": "Meeting",
-								"notes": null,
-								"value": "sum",
-								"children": [
-									{
-										"id": "wnvgxaoa",
-										"text": "With p'Rit<br>",
-										"notes": null,
-										"value": "sum",
-										"children": [
-											{
-												"id": "zjsididb",
-												"text": "2021-06-21",
-												"notes": null,
-												"value": 30
-											}
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"id": "tknqwkap",
-						"text": "Omelet",
-						"notes": null,
-						"color": "#fa3",
-						"icon": "fa-bullseye",
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "oditnjgs",
-								"text": "Meeting",
+								"id": "pzhgsygz",
+								"text": "1ness",
 								"notes": null,
 								"value": "sum",
 								"collapsed": 1,
 								"children": [
 									{
-										"id": "qneeawui",
-										"text": "Tech Team<br>",
-										"notes": null,
-										"value": "sum",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "aspeypzx",
-												"text": "2021-06-21",
-												"notes": null,
-												"value": 45
-											}
-										]
-									},
-									{
-										"id": "trkumdqy",
-										"text": "Opsta",
-										"notes": null,
-										"value": "sum",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "sqmcszxj",
-												"text": "AWS Securities<br>",
-												"notes": null,
-												"value": 40
-											}
-										]
-									}
-								]
-							},
-							{
-								"id": "ygsxebti",
-								"text": "Projects",
-								"notes": null,
-								"collapsed": 1,
-								"children": [
-									{
-										"id": "ifewvdvn",
-										"text": "Existing",
-										"notes": null,
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "ckeszwpg",
-												"text": "Krungsri Auto<br>",
-												"notes": null,
-												"icon": "fa-car"
-											}
-										]
-									},
-									{
-										"id": "dtbfywyc",
-										"text": "Internal",
-										"notes": null
-									},
-									{
-										"id": "pyhcaonk",
-										"text": "New",
-										"notes": null
-									}
-								]
-							}
-						]
-					},
-					{
-						"id": "ngzqhngm",
-						"text": "SM",
-						"notes": null,
-						"icon": "fa-bus",
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "brrkotzf",
-								"text": "Apps",
-								"notes": null,
-								"value": "sum",
-								"collapsed": 1,
-								"children": [
-									{
-										"id": "ylhfwcsf",
-										"text": "Member",
-										"notes": null,
-										"value": "sum",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "ousuayeq",
-												"text": "Initial",
-												"notes": null
-											}
-										]
-									},
-									{
-										"id": "ffldqdri",
-										"text": "Setup",
+										"id": "heckwnex",
+										"text": "Apps",
 										"notes": null,
 										"value": "sum",
 										"children": [
 											{
-												"id": "rfswwbcc",
+												"id": "zeesexto",
 												"text": "Design",
 												"notes": null,
 												"value": "sum",
 												"children": [
 													{
-														"id": "jjkbcrqr",
+														"id": "casbqtfr",
 														"text": "2021-06-23",
 														"notes": null,
-														"value": 15
+														"value": 10
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "tfadphhy",
+										"text": "Meeting",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "gdtzkbjv",
+												"text": "With p-Rit<br>",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "zjsididb",
+														"text": "2021-06-21",
+														"notes": null,
+														"value": 30
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "tknqwkap",
+								"text": "Omelet",
+								"notes": null,
+								"color": "#fa3",
+								"icon": "fa-bullseye",
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "oditnjgs",
+										"text": "Meeting",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "qneeawui",
+												"text": "Tech Team<br>",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "aspeypzx",
+														"text": "2021-06-21",
+														"notes": null,
+														"value": 45
+													},
+													{
+														"id": "odsxswum",
+														"text": "2021-07-01",
+														"notes": null,
+														"children": [
+															{
+																"id": "hlpzfhai",
+																"text": "Update new project (Nakorn Phanom)<br>",
+																"notes": null
+															},
+															{
+																"id": "viluysqo",
+																"text": "AWS Server how to?<br>",
+																"notes": null,
+																"status": "no"
+															}
+														]
 													}
 												]
 											},
 											{
-												"id": "swojonno",
-												"text": "Master Data<br>",
+												"id": "trkumdqy",
+												"text": "Opsta",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "sqmcszxj",
+														"text": "AWS Securities<br>",
+														"notes": null,
+														"value": 40
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "ygsxebti",
+										"text": "Projects",
+										"notes": null,
+										"children": [
+											{
+												"id": "ifewvdvn",
+												"text": "Existing",
 												"notes": null,
 												"children": [
 													{
-														"id": "pntyqdwj",
-														"text": "Courier Price",
+														"id": "ckeszwpg",
+														"text": "Krungsri Auto<br>",
+														"notes": null,
+														"icon": "fa-car",
+														"status": "computed",
+														"children": [
+															{
+																"id": "fhhoedva",
+																"text": "Dashboard",
+																"notes": null,
+																"status": "computed",
+																"children": [
+																	{
+																		"id": "jsbwytch",
+																		"text": "Mock-up",
+																		"notes": null,
+																		"status": "yes"
+																	},
+																	{
+																		"id": "pasjfeoq",
+																		"text": "Web Apps",
+																		"notes": null,
+																		"status": "no"
+																	},
+																	{
+																		"id": "hlurmamf",
+																		"text": "Boom work on it<br>",
+																		"notes": null
+																	},
+																	{
+																		"id": "exoskgvt",
+																		"text": "Document",
+																		"notes": null
+																	},
+																	{
+																		"id": "vjafspkc",
+																		"text": "Process will apply on development process<br>",
+																		"notes": null,
+																		"status": "no"
+																	}
+																]
+															},
+															{
+																"id": "jhyfntzw",
+																"text": "Bot",
+																"notes": null,
+																"status": "computed"
+															}
+														]
+													},
+													{
+														"id": "kjrczpmo",
+														"text": "Big C<br>",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "dtbfywyc",
+												"text": "Internal",
+												"notes": null
+											},
+											{
+												"id": "pyhcaonk",
+												"text": "New",
+												"notes": null,
+												"children": [
+													{
+														"id": "sornnheh",
+														"text": "Nakorn Phanom (หอการค้า)<br>",
+														"notes": null,
+														"children": [
+															{
+																"id": "gtektqsw",
+																"text": "City app<br>",
+																"notes": null,
+																"status": "no",
+																"children": [
+																	{
+																		"id": "niyryvsp",
+																		"text": "MVP",
+																		"notes": null
+																	},
+																	{
+																		"id": "rogeafei",
+																		"text": "ส่งเสริมการท่องเที่ยว<br>",
+																		"notes": null
+																	},
+																	{
+																		"id": "mdgiolsn",
+																		"text": "ใช้เงินในชุมชน<br>",
+																		"notes": null
+																	},
+																	{
+																		"id": "ubwdxxmn",
+																		"text": "2021-07-01",
+																		"notes": null
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "ddbwobbf",
+														"text": "Yonomori",
+														"notes": null
+													},
+													{
+														"id": "vyygtwcr",
+														"text": "Dashborad Sales team motivate<br>",
+														"notes": null
+													},
+													{
+														"id": "dhiskzan",
+														"text": "เอเซ่<br>",
+														"notes": null
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "lvrcudjo",
+										"text": "Supports<br>",
+										"notes": null,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "vajyyqiw",
+												"text": "Boom<br>",
+												"notes": null
+											},
+											{
+												"id": "suslnklj",
+												"text": "Junior",
+												"notes": null
+											},
+											{
+												"id": "uqzlnvqk",
+												"text": "Intern",
+												"notes": null
+											}
+										]
+									},
+									{
+										"id": "lryhchby",
+										"text": "Team",
+										"notes": null,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "trobdkzz",
+												"text": "Tech Lead<br>",
+												"notes": null,
+												"children": [
+													{
+														"id": "svtnaiti",
+														"text": "A",
+														"notes": null,
+														"children": [
+															{
+																"id": "jjppkrxs",
+																"text": "Boom",
+																"notes": null
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "rtxqgssm",
+												"text": "Sales",
+												"notes": null,
+												"children": [
+													{
+														"id": "lvqcivkm",
+														"text": "May",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "pyhtdpmw",
+												"text": "PO/BA/QA",
+												"notes": null,
+												"children": [
+													{
+														"id": "kmefbrud",
+														"text": "Plam",
+														"notes": null,
+														"children": [
+															{
+																"id": "jvrrhebv",
+																"text": "Add technical<br>",
+																"notes": null
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "wevteeqb",
+												"text": "Dev",
+												"notes": null,
+												"children": [
+													{
+														"id": "ogkjpirh",
+														"text": "Shin",
+														"notes": null
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "ccuawsxz",
+										"text": "Process",
+										"notes": null,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "ngnjtjkn",
+												"text": "Dev process<br>",
+												"notes": null
+											},
+											{
+												"id": "eggtvpgw",
+												"text": "Org chart",
+												"notes": null,
+												"children": [
+													{
+														"id": "dvsvigmb",
+														"text": "<a href=\"https://1drv.ms/b/s!Av-sumZbaQv1gpUf6Lmcc4pDPEpOfg?e=B0Cf1j\">2021-07-01</a>",
 														"notes": null
 													}
 												]
@@ -336,297 +569,762 @@
 								]
 							},
 							{
-								"id": "qphvxwnz",
-								"text": "Meeings",
+								"id": "ngzqhngm",
+								"text": "SM",
 								"notes": null,
+								"icon": "fa-bus",
 								"value": "sum",
 								"collapsed": 1,
 								"children": [
 									{
-										"id": "twstcgmr",
-										"text": "Weekly",
+										"id": "brrkotzf",
+										"text": "Apps",
 										"notes": null,
 										"value": "sum",
+										"collapsed": 1,
 										"children": [
 											{
-												"id": "ujkrnmsq",
-												"text": "2021-06-20",
+												"id": "ylhfwcsf",
+												"text": "Member",
 												"notes": null,
-												"value": 45
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "ousuayeq",
+														"text": "Initial",
+														"notes": null
+													}
+												]
 											},
 											{
-												"id": "oucpafyx",
-												"text": "2021-06-27",
-												"notes": null,
-												"value": 75
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": "gatkdxjb",
-				"text": "Free Time",
-				"notes": null,
-				"side": "left",
-				"color": "#3e3",
-				"icon": "fa-gamepad",
-				"value": "sum",
-				"collapsed": 1,
-				"children": [
-					{
-						"id": "soifexsh",
-						"text": "Manga",
-						"notes": null,
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "cptwwzbj",
-								"text": "Kingdom",
-								"notes": null,
-								"value": "sum",
-								"children": [
-									{
-										"id": "ervzpyrf",
-										"text": "2021-06-22",
-										"notes": null,
-										"value": 17
-									}
-								]
-							}
-						]
-					},
-					{
-						"id": "cpvfirdb",
-						"text": "Movies",
-						"notes": null,
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "roonzphe",
-								"text": "Action",
-								"notes": null,
-								"value": "sum",
-								"status": "computed",
-								"collapsed": 1,
-								"children": [
-									{
-										"id": "pfebzink",
-										"text": "Anacondas: The hunt for blood orchid (2004)",
-										"notes": null,
-										"value": "sum",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "sqadsotu",
-												"text": "2021-06-09",
-												"notes": null,
-												"value": 45
-											}
-										]
-									},
-									{
-										"id": "ppjvazvw",
-										"text": "Rurouni Kenshin: Origins (2012)",
-										"notes": null,
-										"value": "sum",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "sfmfqrxd",
-												"text": "2021-06-22",
-												"notes": null,
-												"value": 10
-											},
-											{
-												"id": "icqfxrxq",
-												"text": "2021-06-23",
-												"notes": null,
-												"value": 20
-											}
-										]
-									},
-									{
-										"id": "uaiigchp",
-										"text": "Rurouni Kenshin: Kyoto Inferno (2014)",
-										"notes": null,
-										"value": "sum",
-										"status": "no",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "tgojufef",
-												"text": "2021-06-23",
-												"notes": null,
-												"value": 15
-											},
-											{
-												"id": "nexzwhky",
-												"text": "2021-06-26",
-												"notes": null,
-												"value": 30
-											}
-										]
-									},
-									{
-										"id": "wgvfpcyg",
-										"text": "xTreme",
-										"notes": null,
-										"value": "sum",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "yovoiman",
-												"text": "2021-06-09",
-												"notes": null,
-												"value": 15
-											}
-										]
-									}
-								]
-							},
-							{
-								"id": "dhoeikwv",
-								"text": "Animation",
-								"notes": null,
-								"value": "sum",
-								"status": "computed",
-								"collapsed": 1,
-								"children": [
-									{
-										"id": "nuftimeh",
-										"text": "Jujutsu Kaisen (2021)",
-										"notes": null,
-										"value": "sum",
-										"status": "no",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "zwstnvjf",
-												"text": "Season 1<br>",
+												"id": "ffldqdri",
+												"text": "Setup",
 												"notes": null,
 												"value": "sum",
 												"children": [
 													{
-														"id": "stdimmch",
-														"text": "2021-06-03",
+														"id": "rfswwbcc",
+														"text": "Design",
 														"notes": null,
-														"value": 35
+														"value": "sum",
+														"children": [
+															{
+																"id": "jjkbcrqr",
+																"text": "2021-06-23",
+																"notes": null,
+																"value": 15
+															}
+														]
 													},
 													{
-														"id": "olzqgiqn",
-														"text": "2021-06-04",
+														"id": "swojonno",
+														"text": "Master Data<br>",
 														"notes": null,
-														"value": 15,
-														"layout": "map"
+														"children": [
+															{
+																"id": "pntyqdwj",
+																"text": "Courier Price",
+																"notes": null
+															}
+														]
 													}
 												]
 											}
 										]
 									},
 									{
-										"id": "uzfzpozo",
-										"text": "Trese (2021)",
+										"id": "qphvxwnz",
+										"text": "Meeings",
 										"notes": null,
 										"value": "sum",
-										"status": "no",
-										"collapsed": 1,
 										"children": [
 											{
-												"id": "itldhmfw",
-												"text": "2021-06-12",
+												"id": "twstcgmr",
+												"text": "Weekly",
 												"notes": null,
-												"value": 15
+												"value": "sum",
+												"children": [
+													{
+														"id": "ujkrnmsq",
+														"text": "2021-06-20",
+														"notes": null,
+														"value": 45
+													},
+													{
+														"id": "oucpafyx",
+														"text": "2021-06-27",
+														"notes": null,
+														"value": 75
+													},
+													{
+														"id": "aoizpmui",
+														"text": "2021-07-04",
+														"notes": null,
+														"value": 45
+													}
+												]
+											},
+											{
+												"id": "skjzdzlv",
+												"text": "Customer",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "jgtbgioj",
+														"text": "2021-07-06",
+														"notes": null,
+														"value": 40
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gatkdxjb",
+						"text": "Free Time",
+						"notes": null,
+						"color": "#3e3",
+						"icon": "fa-gamepad",
+						"value": "sum",
+						"shape": "box",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "wxhkggzs",
+								"text": "Comics",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "xbtmndzn",
+										"text": "Dan The Unharmable",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "riwwyufn",
+												"text": "2019-09-11",
+												"notes": null,
+												"value": 30
 											}
 										]
 									}
 								]
 							},
 							{
-								"id": "iquuukrb",
-								"text": "Sci-Fi",
+								"id": "iqznunne",
+								"text": "Facebook",
 								"notes": null,
 								"value": "sum",
 								"collapsed": 1,
 								"children": [
 									{
-										"id": "lazoszli",
-										"text": "Avenger: Age of Ultron (2015)",
+										"id": "kyufxwrb",
+										"text": "Other",
 										"notes": null,
 										"value": "sum",
-										"collapsed": 1,
 										"children": [
 											{
-												"id": "obhwnnhm",
-												"text": "2021-06-12",
+												"id": "qoatjtwu",
+												"text": "2021-07-06",
 												"notes": null,
-												"value": 70
-											},
+												"value": 10
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "soifexsh",
+								"text": "Manga",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "cptwwzbj",
+										"text": "Kingdom",
+										"notes": null,
+										"value": "sum",
+										"children": [
 											{
-												"id": "uoadrcsa",
-												"text": "2021-06-13",
+												"id": "ervzpyrf",
+												"text": "2021-06-22",
 												"notes": null,
-												"value": 70
-											},
-											{
-												"id": "hwtsvdkx",
-												"text": "2021-06-14",
-												"notes": null,
-												"value": 110
+												"value": 17
 											}
 										]
 									},
 									{
-										"id": "mcpwoivo",
-										"text": "Avenger: Infinity War (2018)",
+										"id": "lkmocofs",
+										"text": "Rurouni Kenshin",
 										"notes": null,
 										"value": "sum",
-										"collapsed": 1,
 										"children": [
 											{
-												"id": "dagohgly",
-												"text": "2021-06-13",
+												"id": "lrwuwlne",
+												"text": "2021-06-29",
 												"notes": null,
-												"value": 110
-											},
-											{
-												"id": "zqfdpgih",
-												"text": "2021-06-14",
-												"notes": null,
-												"value": 15
+												"value": 10
 											}
 										]
-									},
+									}
+								]
+							},
+							{
+								"id": "cpvfirdb",
+								"text": "Movies",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
 									{
-										"id": "kxfzseml",
-										"text": "WandaVision (2021)",
+										"id": "roonzphe",
+										"text": "Action",
 										"notes": null,
 										"value": "sum",
+										"status": "computed",
 										"collapsed": 1,
 										"children": [
 											{
-												"id": "ftghbahu",
-												"text": "Season 1<br>",
+												"id": "pfebzink",
+												"text": "Anacondas: The hunt for blood orchid (2004)",
 												"notes": null,
 												"value": "sum",
+												"collapsed": 1,
 												"children": [
 													{
-														"id": "znpaghdp",
-														"text": "2021-06-04",
+														"id": "sqadsotu",
+														"text": "2021-06-09",
+														"notes": null,
+														"value": 45
+													}
+												]
+											},
+											{
+												"id": "ppjvazvw",
+												"text": "Rurouni Kenshin: Origins (2012)",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "sfmfqrxd",
+														"text": "2021-06-22",
+														"notes": null,
+														"value": 10
+													},
+													{
+														"id": "icqfxrxq",
+														"text": "2021-06-23",
+														"notes": null,
+														"value": 20
+													}
+												]
+											},
+											{
+												"id": "uaiigchp",
+												"text": "Rurouni Kenshin: Kyoto Inferno (2014)",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "tgojufef",
+														"text": "2021-06-23",
 														"notes": null,
 														"value": 15
 													},
 													{
-														"id": "ejtoxxma",
-														"text": "2021-06-05",
+														"id": "nexzwhky",
+														"text": "2021-06-26",
 														"notes": null,
-														"value": 160
+														"value": 30
+													},
+													{
+														"id": "xezbcvwi",
+														"text": "2021-06-28",
+														"notes": null,
+														"value": 50
+													},
+													{
+														"id": "davuikio",
+														"text": "2021-06-29",
+														"notes": null,
+														"value": 15
+													},
+													{
+														"id": "gnoyxqkc",
+														"text": "2021-06-30",
+														"notes": null,
+														"value": 25
+													}
+												]
+											},
+											{
+												"id": "memgxgec",
+												"text": "Rurouni Kenshin: The Legend End (2014)",
+												"notes": null,
+												"value": "sum",
+												"status": "no",
+												"children": [
+													{
+														"id": "cxpicqcf",
+														"text": "2021-07-01",
+														"notes": null,
+														"value": 20
+													},
+													{
+														"id": "pxxredrs",
+														"text": "2021-07-03",
+														"notes": null,
+														"value": 25
+													}
+												]
+											},
+											{
+												"id": "wgvfpcyg",
+												"text": "xTreme",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "yovoiman",
+														"text": "2021-06-09",
+														"notes": null,
+														"value": 15
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "dhoeikwv",
+										"text": "Animation",
+										"notes": null,
+										"value": "sum",
+										"status": "computed",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "nuftimeh",
+												"text": "Jujutsu Kaisen (2021)",
+												"notes": null,
+												"value": "sum",
+												"status": "no",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "zwstnvjf",
+														"text": "Season 1<br>",
+														"notes": null,
+														"value": "sum",
+														"children": [
+															{
+																"id": "stdimmch",
+																"text": "2021-06-03",
+																"notes": null,
+																"value": 35
+															},
+															{
+																"id": "olzqgiqn",
+																"text": "2021-06-04",
+																"notes": null,
+																"value": 15,
+																"layout": "map"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "uzfzpozo",
+												"text": "Trese (2021)",
+												"notes": null,
+												"value": "sum",
+												"status": "no",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "itldhmfw",
+														"text": "2021-06-12",
+														"notes": null,
+														"value": 15
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "iquuukrb",
+										"text": "Sci-Fi",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "lazoszli",
+												"text": "Avenger: Age of Ultron (2015)",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "obhwnnhm",
+														"text": "2021-06-12",
+														"notes": null,
+														"value": 70
+													},
+													{
+														"id": "uoadrcsa",
+														"text": "2021-06-13",
+														"notes": null,
+														"value": 70
+													},
+													{
+														"id": "hwtsvdkx",
+														"text": "2021-06-14",
+														"notes": null,
+														"value": 110
+													}
+												]
+											},
+											{
+												"id": "mcpwoivo",
+												"text": "Avenger: Infinity War (2018)",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "dagohgly",
+														"text": "2021-06-13",
+														"notes": null,
+														"value": 110
+													},
+													{
+														"id": "zqfdpgih",
+														"text": "2021-06-14",
+														"notes": null,
+														"value": 15
+													}
+												]
+											},
+											{
+												"id": "kxfzseml",
+												"text": "WandaVision (2021)",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "ftghbahu",
+														"text": "Season 1<br>",
+														"notes": null,
+														"value": "sum",
+														"children": [
+															{
+																"id": "znpaghdp",
+																"text": "2021-06-04",
+																"notes": null,
+																"value": 15
+															},
+															{
+																"id": "ejtoxxma",
+																"text": "2021-06-05",
+																"notes": null,
+																"value": 160
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "cyvpjukx",
+								"text": "Novel",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "yulkmdru",
+										"text": "Chinese",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "olfngqjz",
+												"text": "กระบี่เลือดเขียว",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "ssttzawl",
+														"text": "2021-07-03",
+														"notes": null,
+														"value": 65
+													},
+													{
+														"id": "oaonmwsj",
+														"text": "2021-07-04",
+														"notes": null,
+														"value": 220
+													},
+													{
+														"id": "dwxwooty",
+														"text": "2021-07-05",
+														"notes": null,
+														"value": 45,
+														"collapsed": 1
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "vjeyqtom",
+								"text": "Surf",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "phptmpsi",
+										"text": "Apps",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "umcvyuqw",
+												"text": "Mind map<br>",
+												"notes": null,
+												"value": 90
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "agygcgez",
+								"text": "Youtube",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "jjbdqkgz",
+										"text": "Apps",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "cckdaqbg",
+												"text": "Google Drive API<br>",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "bkbfcjqn",
+														"text": "2021-06-26",
+														"notes": null,
+														"value": 20
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "ilxjrfgk",
+										"text": "Investment",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "ggawjqnh",
+												"text": "ySocial",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "qrwqiorb",
+														"text": "2021-06-22",
+														"notes": null,
+														"value": 15
+													},
+													{
+														"id": "avrdrbit",
+														"text": "2021-06-23",
+														"notes": null,
+														"value": 45
+													}
+												]
+											},
+											{
+												"id": "nxqaqico",
+												"text": "Money Hero<br>",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "bdzrpgbf",
+														"text": "2021-06-21",
+														"notes": null,
+														"value": 30
+													},
+													{
+														"id": "slfradoq",
+														"text": "2021-06-26",
+														"notes": null,
+														"value": 15
+													},
+													{
+														"id": "pbzxqaud",
+														"text": "2021-06-28",
+														"notes": null,
+														"value": 10
+													},
+													{
+														"id": "safvvjch",
+														"text": "2021-06-29",
+														"notes": null,
+														"value": 20
+													}
+												]
+											},
+											{
+												"id": "krygoxsp",
+												"text": "Boy Tha pha chan<br>",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "mhhfblcm",
+														"text": "2021-06-26",
+														"notes": null,
+														"value": 5
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "hhhcbtkt",
+										"text": "Motorcycle",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "ncoqdrfr",
+												"text": "Baby Biker<br>",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "knpgvalx",
+														"text": "2021-06-25",
+														"notes": null,
+														"value": 20
+													}
+												]
+											},
+											{
+												"id": "wpomthqk",
+												"text": "The Gaijin Trip",
+												"notes": null,
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "zjsufqzf",
+														"text": "EP57 เพชรบุรี<br>",
+														"notes": null,
+														"value": "sum",
+														"children": [
+															{
+																"id": "ptqlrqbc",
+																"text": "2021-06-09<br>",
+																"notes": null,
+																"value": 20
+															}
+														]
+													},
+													{
+														"id": "motzqwba",
+														"text": "EP58 เชียงใหม่<br>",
+														"notes": null,
+														"value": "sum",
+														"children": [
+															{
+																"id": "ciqfrhsj",
+																"text": "2021-06-28",
+																"notes": null,
+																"value": 12
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "jhznqbfl",
+										"text": "Other<br>",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "cqotnane",
+												"text": "Movies",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "kxaacrko",
+														"text": "2021-07-03",
+														"notes": null,
+														"value": 20
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "xznfbjcl",
+										"text": "Language",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "kmkpuixh",
+												"text": "Petch Z<br>",
+												"notes": null,
+												"value": "sum",
+												"children": [
+													{
+														"id": "sgqtmqgv",
+														"text": "2021-07-06",
+														"notes": null,
+														"value": 15
 													}
 												]
 											}
@@ -637,142 +1335,209 @@
 						]
 					},
 					{
-						"id": "vjeyqtom",
-						"text": "Surf",
+						"id": "nyvydrlf",
+						"text": "Personal Growth<br>",
 						"notes": null,
+						"color": "#e33",
+						"icon": "fa-child",
 						"value": "sum",
-						"collapsed": 1,
+						"shape": "box",
 						"children": [
 							{
-								"id": "phptmpsi",
+								"id": "loxiifvx",
 								"text": "Apps",
 								"notes": null,
 								"value": "sum",
+								"status": "computed",
 								"children": [
 									{
-										"id": "umcvyuqw",
-										"text": "Mind map<br>",
-										"notes": null,
-										"value": 90
-									}
-								]
-							}
-						]
-					},
-					{
-						"id": "agygcgez",
-						"text": "Youtube",
-						"notes": null,
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "ilxjrfgk",
-								"text": "Investment",
-								"notes": null,
-								"value": "sum",
-								"collapsed": 1,
-								"children": [
-									{
-										"id": "ggawjqnh",
-										"text": "ySocial",
+										"id": "fvayzfxm",
+										"text": "FMs",
 										"notes": null,
 										"value": "sum",
+										"status": "computed",
 										"collapsed": 1,
 										"children": [
 											{
-												"id": "qrwqiorb",
-												"text": "2021-06-22",
+												"id": "wcgudkcx",
+												"text": "Checklist",
 												"notes": null,
-												"value": 15
+												"value": "sum",
+												"status": "no",
+												"children": [
+													{
+														"id": "uvrnxeuh",
+														"text": "2021-07-03",
+														"notes": null,
+														"value": 105
+													},
+													{
+														"id": "zkpkvjlw",
+														"text": "2021-07-05",
+														"notes": null,
+														"value": 45
+													},
+													{
+														"id": "xaxjdkxc",
+														"text": "2021-07-06",
+														"notes": null,
+														"value": 10
+													}
+												]
 											},
 											{
-												"id": "avrdrbit",
-												"text": "2021-06-23",
+												"id": "ybbvcsha",
+												"text": "Re-deploy",
 												"notes": null,
-												"value": 45
+												"value": "sum",
+												"status": "no",
+												"children": [
+													{
+														"id": "situxmqj",
+														"text": "2021-07-06",
+														"notes": null,
+														"value": 1
+													}
+												]
 											}
 										]
 									},
 									{
-										"id": "nxqaqico",
-										"text": "Money Hero<br>",
+										"id": "zwwtcvpl",
+										"text": "kMM",
 										"notes": null,
+										"icon": "fa-bullseye",
 										"value": "sum",
-										"collapsed": 1,
+										"status": "computed",
 										"children": [
 											{
-												"id": "bdzrpgbf",
-												"text": "2021-06-21",
+												"id": "fwgvkqnu",
+												"text": "Access Google<br>",
 												"notes": null,
-												"value": 30
+												"value": "sum",
+												"status": "no",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "izaisyta",
+														"text": "2021-06-26",
+														"notes": null,
+														"value": 30
+													}
+												]
 											},
 											{
-												"id": "slfradoq",
-												"text": "2021-06-26",
+												"id": "jsdxtgpi",
+												"text": "Restructure",
 												"notes": null,
-												"value": 15
-											}
-										]
-									},
-									{
-										"id": "krygoxsp",
-										"text": "Boy Tha pha chan<br>",
-										"notes": null,
-										"value": "sum",
-										"collapsed": 1,
-										"children": [
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "shdntjom",
+														"text": "2021-06-25",
+														"notes": null,
+														"value": 70
+													}
+												]
+											},
 											{
-												"id": "mhhfblcm",
-												"text": "2021-06-26",
+												"id": "vowhodum",
+												"text": "Recursive Solve<br>",
 												"notes": null,
-												"value": 5
+												"value": "sum",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "zcmyityw",
+														"text": "2021-06-27",
+														"notes": null,
+														"value": 200,
+														"collapsed": 1
+													}
+												]
+											},
+											{
+												"id": "suadbvkn",
+												"text": "Report on React<br>",
+												"notes": null,
+												"value": "sum",
+												"status": "no",
+												"children": [
+													{
+														"id": "ajrxcgff",
+														"text": "2021-06-26",
+														"notes": null,
+														"value": 210
+													},
+													{
+														"id": "jberatqm",
+														"text": "2021-06-27",
+														"notes": null,
+														"value": 40
+													},
+													{
+														"id": "fugbojzo",
+														"text": "2021-06-28",
+														"notes": null,
+														"value": 10
+													},
+													{
+														"id": "bsvvzdtz",
+														"text": "2021-06-29",
+														"notes": null,
+														"value": 40
+													},
+													{
+														"id": "bcjsozks",
+														"text": "2021-06-30",
+														"notes": null,
+														"value": 120
+													},
+													{
+														"id": "ifmilnrz",
+														"text": "2021-07-03",
+														"notes": null,
+														"value": 100
+													},
+													{
+														"id": "tqzttpud",
+														"text": "2021-07-04",
+														"notes": null,
+														"value": 170,
+														"collapsed": 1
+													},
+													{
+														"id": "kyudkgpo",
+														"text": "2021-07-06",
+														"notes": null,
+														"value": 80,
+														"collapsed": 1
+													}
+												]
 											}
 										]
 									}
 								]
 							},
 							{
-								"id": "hhhcbtkt",
-								"text": "Motorcycle",
+								"id": "kmevrntw",
+								"text": "Shell Script<br>",
 								"notes": null,
 								"value": "sum",
 								"collapsed": 1,
 								"children": [
 									{
-										"id": "ncoqdrfr",
-										"text": "Baby Biker<br>",
+										"id": "ulcubsgy",
+										"text": "backup script<br>",
 										"notes": null,
 										"value": "sum",
 										"children": [
 											{
-												"id": "knpgvalx",
-												"text": "2021-06-25",
+												"id": "bgjppfvi",
+												"text": "2021-06-28",
 												"notes": null,
-												"value": 20
-											}
-										]
-									}
-								]
-							},
-							{
-								"id": "jjbdqkgz",
-								"text": "Apps",
-								"notes": null,
-								"value": "sum",
-								"collapsed": 1,
-								"children": [
-									{
-										"id": "cckdaqbg",
-										"text": "Google Drive API<br>",
-										"notes": null,
-										"value": "sum",
-										"children": [
-											{
-												"id": "bkbfcjqn",
-												"text": "2021-06-26",
-												"notes": null,
-												"value": 20
+												"value": 15
 											}
 										]
 									}
@@ -783,95 +1548,38 @@
 				]
 			},
 			{
-				"id": "nyvydrlf",
-				"text": "Personal Growth<br>",
+				"id": "ddrxjjho",
+				"text": "Exp",
 				"notes": null,
 				"side": "left",
-				"color": "#e33",
-				"icon": "fa-child",
-				"value": "sum",
+				"color": "#00BFFF",
+				"icon": "fa-shopping-basket",
+				"collapsed": 1,
 				"children": [
 					{
-						"id": "loxiifvx",
-						"text": "Apps",
+						"id": "xfabavkl",
+						"text": "Bill",
 						"notes": null,
 						"value": "sum",
-						"status": "computed",
+						"collapsed": 1,
 						"children": [
 							{
-								"id": "zwwtcvpl",
-								"text": "kMM",
+								"id": "afxxvblq",
+								"text": "GLS",
 								"notes": null,
-								"icon": "fa-bullseye",
 								"value": "sum",
-								"status": "computed",
+								"collapsed": 1,
 								"children": [
 									{
-										"id": "fwgvkqnu",
-										"text": "Access Google<br>",
+										"id": "fqdfsaxf",
+										"text": "2021-06-30",
 										"notes": null,
-										"value": "sum",
-										"status": "no",
-										"collapsed": 1,
+										"value": 3000,
 										"children": [
 											{
-												"id": "izaisyta",
-												"text": "2021-06-26",
-												"notes": null,
-												"value": 30
-											}
-										]
-									},
-									{
-										"id": "jsdxtgpi",
-										"text": "Restructure",
-										"notes": null,
-										"value": "sum",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "shdntjom",
-												"text": "2021-06-25",
-												"notes": null,
-												"value": 70
-											}
-										]
-									},
-									{
-										"id": "vowhodum",
-										"text": "Recursive Solve<br>",
-										"notes": null,
-										"value": "sum",
-										"status": "no",
-										"children": [
-											{
-												"id": "zcmyityw",
-												"text": "2021-06-27",
-												"notes": null,
-												"value": 200,
-												"collapsed": 1
-											}
-										]
-									},
-									{
-										"id": "suadbvkn",
-										"text": "Report on React<br>",
-										"notes": null,
-										"value": "sum",
-										"status": "no",
-										"collapsed": 1,
-										"children": [
-											{
-												"id": "ajrxcgff",
-												"text": "2021-06-26",
-												"notes": null,
-												"value": 210
-											},
-											{
-												"id": "jberatqm",
-												"text": "2021-06-27",
-												"notes": null,
-												"value": 40
+												"id": "iwmllcro",
+												"text": "KW",
+												"notes": null
 											}
 										]
 									}
@@ -880,22 +1588,181 @@
 						]
 					},
 					{
-						"id": "kmevrntw",
-						"text": "Shell Script<br>",
+						"id": "ixaragho",
+						"text": "Food",
 						"notes": null,
 						"value": "sum",
+						"collapsed": 1,
 						"children": [
 							{
-								"id": "ulcubsgy",
-								"text": "backup script<br>",
+								"id": "nwwpdlhe",
+								"text": "A la cart<br>",
 								"notes": null,
 								"value": "sum",
 								"children": [
 									{
-										"id": "bgjppfvi",
-										"text": "2021-06-28",
+										"id": "nhtxgxfd",
+										"text": "2021-07-01",
 										"notes": null,
-										"value": 15
+										"value": 50
+									},
+									{
+										"id": "gdaatjdn",
+										"text": "2021-07-02",
+										"notes": null,
+										"value": 50
+									}
+								]
+							},
+							{
+								"id": "kekhnyqk",
+								"text": "Coffee",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "nljbukdr",
+										"text": "2021-07-02",
+										"notes": null,
+										"value": 45
+									}
+								]
+							},
+							{
+								"id": "rjznjzqr",
+								"text": "Coke<br>",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "pwvsdfpk",
+										"text": "2021-07-01",
+										"notes": null,
+										"value": 10
+									},
+									{
+										"id": "hwhxozdo",
+										"text": "2021-07-02",
+										"notes": null,
+										"value": 13
+									}
+								]
+							},
+							{
+								"id": "mqjbsoks",
+								"text": "Onigiri",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "yruaawgy",
+										"text": "2021-07-02",
+										"notes": null,
+										"value": 25
+									}
+								]
+							},
+							{
+								"id": "xcvssqmt",
+								"text": "Soda",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "uayoqpmz",
+										"text": "2021-07-03",
+										"notes": null,
+										"value": 30,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "gdfrbina",
+												"text": "Calpis Lacto<br>",
+												"notes": null
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "krsqjnzq",
+								"text": "Soju",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "ryrlddhp",
+										"text": "2021-07-02",
+										"notes": null,
+										"value": 39,
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "euemogzy",
+												"text": "Horoyoi White<br>",
+												"notes": null
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "cggbipiw",
+						"text": "Home",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "csfeloed",
+								"text": "Yearly",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "rcpupybl",
+										"text": "2021-06-30",
+										"notes": null,
+										"value": 20000,
+										"children": [
+											{
+												"id": "inydcrlg",
+												"text": "PKL",
+												"notes": null
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "bpmnjeia",
+						"text": "Transport",
+						"notes": null,
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "natwddlu",
+								"text": "ADV150 Fuel<br>",
+								"notes": null,
+								"children": [
+									{
+										"id": "tsbdarnq",
+										"text": "2021-06-21",
+										"notes": null,
+										"value": 200,
+										"children": [
+											{
+												"id": "seanzqwp",
+												"text": "23.30|10053|note|expire|expire date<br>",
+												"notes": null
+											}
+										]
 									}
 								]
 							}
@@ -955,7 +1822,6 @@
 										"id": "fyzwbcwx",
 										"text": "Pilok",
 										"notes": null,
-										"collapsed": 1,
 										"children": [
 											{
 												"id": "efbopqqv",
@@ -966,7 +1832,6 @@
 														"id": "zpuuqhzq",
 														"text": "Lodge",
 														"notes": null,
-														"collapsed": 1,
 														"children": [
 															{
 																"id": "hxkyuvqc",
@@ -979,7 +1844,6 @@
 														"id": "xkkkwpea",
 														"text": "Rayaburi",
 														"notes": null,
-														"collapsed": 1,
 														"children": [
 															{
 																"id": "eaxjiixm",
@@ -1092,209 +1956,2724 @@
 			},
 			{
 				"id": "ojwrukde",
-				"text": "TRADING",
+				"text": "Daytrade",
 				"notes": null,
 				"side": "right",
 				"color": "#d3d",
 				"icon": "fa-money",
 				"value": "sum",
+				"collapsed": 1,
 				"children": [
 					{
-						"id": "felgqadu",
-						"text": "7UP<br>",
-						"notes": null,
-						"value": "sum",
-						"status": "computed",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "vseqcrqv",
-								"text": "2021-06-25",
-								"notes": "<div>2021-06-25|360</div>",
-								"value": 5.78
-							},
-							{
-								"id": "coklygsn",
-								"text": "2021-06-28",
-								"notes": "<div>2021-06-25|360</div>",
-								"status": "no"
-							}
-						]
-					},
-					{
-						"id": "xsqsgnvc",
-						"text": "AEC",
+						"id": "jljxcydq",
+						"text": "Stock",
 						"notes": null,
 						"value": "sum",
 						"collapsed": 1,
 						"children": [
 							{
-								"id": "twxddbic",
-								"text": "2021-06-24",
-								"notes": "<div>2021-06-23|462<br></div>",
-								"value": 57.34
-							},
-							{
-								"id": "mppjvtag",
-								"text": "2021-06-11",
-								"notes": "<div>2021-06-10|11058<br></div>",
-								"value": -57
-							},
-							{
-								"id": "vimfqnuh",
-								"text": "2021-06-11",
-								"notes": "<div>2021-06-10|10670<br></div>",
-								"value": 107.18
-							},
-							{
-								"id": "mrlhfxlp",
-								"text": "2021-06-25",
-								"notes": "<div>2021-06-24|154<br></div>",
-								"value": 25.44
-							}
-						]
-					},
-					{
-						"id": "jibbiqlh",
-						"text": "BROOK",
-						"notes": null,
-						"value": "sum",
-						"status": "computed",
-						"children": [
-							{
-								"id": "wjgfzvbe",
-								"text": "2021-06-28",
+								"id": "felgqadu",
+								"text": "7UP<br>",
 								"notes": null,
-								"status": "no"
-							}
-						]
-					},
-					{
-						"id": "vvmcizvj",
-						"text": "OCEAN-W3",
-						"notes": null,
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "obfgsllt",
-								"text": "2021-06-25",
-								"notes": null,
-								"value": 9.6
-							}
-						]
-					},
-					{
-						"id": "goxrsyok",
-						"text": "PIMO",
-						"notes": null,
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "vebdmsur",
-								"text": "2020-10-28",
-								"notes": null,
-								"value": 512
-							},
-							{
-								"id": "uvchltmz",
-								"text": "2020-12-08",
-								"notes": null,
-								"value": 312
-							},
-							{
-								"id": "vugcqxsw",
-								"text": "2021-01-19",
-								"notes": null,
-								"value": 162.33
-							}
-						]
-					},
-					{
-						"id": "dvluvjwx",
-						"text": "GUNKUL",
-						"notes": null,
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "btrpdkry",
-								"text": "2021-06-17",
-								"notes": null,
-								"value": -30
-							},
-							{
-								"id": "fvyxsrzz",
-								"text": "2021-06-24",
-								"notes": null,
-								"value": 20.5
-							}
-						]
-					},
-					{
-						"id": "zvscnmwl",
-						"text": "SIRI",
-						"notes": null,
-						"value": "sum",
-						"collapsed": 1,
-						"children": [
-							{
-								"id": "anuvwayd",
-								"text": "2021-05-27",
-								"notes": "<div>2021-05-19|1.36|1.37</div>",
-								"value": 27.09
-							},
-							{
-								"id": "mwqulnii",
-								"text": "2021-05-28",
-								"notes": null,
-								"value": 67.83
-							},
-							{
-								"id": "vgmhivns",
-								"text": "2021-05-28",
-								"notes": null,
-								"value": 2.12
-							}
-						]
-					},
-					{
-						"id": "wiuirmxc",
-						"text": "TTA",
-						"notes": null,
-						"value": "sum",
-						"children": [
-							{
-								"id": "uiudngbu",
-								"text": "2021-06-25",
-								"notes": null,
-								"value": 34.59,
+								"value": "sum",
+								"collapsed": 1,
 								"children": [
 									{
-										"id": "swlesuwo",
-										"text": "100|16.03|16.4",
-										"notes": null
+										"id": "anttkrxe",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "iquotxzu",
+												"text": "2021-03-24",
+												"notes": null,
+												"value": 19,
+												"children": [
+													{
+														"id": "eryptxob",
+														"text": "2000|0.75|0.76|2021-03-23|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "otkivgfu",
+												"text": "2021-03-24",
+												"notes": null,
+												"value": 13.79,
+												"children": [
+													{
+														"id": "ttvjvvdr",
+														"text": "2000|0.92|0.93|2021-03-23|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "fmwvytlm",
+												"text": "2021-03-26",
+												"notes": null,
+												"value": 263.41,
+												"children": [
+													{
+														"id": "dujoamzr",
+														"text": "30000|0.85|0.86|2021-03-26|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "vseqcrqv",
+												"text": "2021-06-25",
+												"notes": null,
+												"value": 5.78,
+												"children": [
+													{
+														"id": "vdniddvl",
+														"text": "200|1.8|1.83|2021-06-25|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "coklygsn",
+												"text": "2021-06-28",
+												"notes": null,
+												"value": 2.4,
+												"children": [
+													{
+														"id": "cvpxdqcx",
+														"text": "100|1.79|1.82|2021-06-25|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "sgfyoxxi",
+								"text": "AAV",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "cqtrsxae",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "rdykmtkt",
+												"text": "2021-06-17",
+												"notes": null,
+												"value": 41.91,
+												"children": [
+													{
+														"id": "rntkdavd",
+														"text": "1200|2.82|2.86|2021-06-16|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "pqtzlqks",
+												"text": "2021-06-21",
+												"notes": null,
+												"value": 28.86,
+												"children": [
+													{
+														"id": "ybpohlhb",
+														"text": "500|3.02|3.08|2021-06-17|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "yvflbdcx",
+								"text": "ACE",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "mwizuplo",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "jjvmdizy",
+												"text": "2021-03-26",
+												"notes": null,
+												"value": 42.22,
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "uyshzrlw",
+														"text": "4500|3.81|3.83|2021-03-26|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "kmqqijad",
+								"text": "ADB",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "arnyzazc",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "feyhicjj",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 8.33,
+												"children": [
+													{
+														"id": "gzrhpxgb",
+														"text": "700|2.4|2.42|2021-07-01|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "mipfhdrk",
+								"text": "ADVANC",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ycnsxwmd",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "xcohpgtx",
+												"text": "2021-02-08",
+												"notes": null,
+												"value": 242.38,
+												"children": [
+													{
+														"id": "urttclmq",
+														"text": "100|170.29|173|2020-03-15|",
+														"notes": null,
+														"layout": "map"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "xsqsgnvc",
+								"text": "AEC",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "khjfmdwo",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "mppjvtag",
+												"text": "2021-06-11",
+												"notes": null,
+												"value": 12.98,
+												"children": [
+													{
+														"id": "xdiyoobm",
+														"text": "1100|1.9|1.91|2021-06-10|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "mrlhfxlp",
+												"text": "2021-06-25",
+												"notes": null,
+												"value": 25.44,
+												"children": [
+													{
+														"id": "gejpzlqs",
+														"text": "100|1.54|1.8|2021-06-24|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "vimfqnuh",
+												"text": "2021-06-11",
+												"notes": null,
+												"value": 107.18,
+												"children": [
+													{
+														"id": "ocqnllyd",
+														"text": "5500|1.94|1.96|2021-06-10|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "twxddbic",
+												"text": "2021-06-24",
+												"notes": null,
+												"value": 57.34,
+												"children": [
+													{
+														"id": "vhnayfrj",
+														"text": "300|1.54|1.74|2021-06-23|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "afckuaxj",
+												"text": "2021-06-23",
+												"notes": null,
+												"children": [
+													{
+														"id": "jmqpgfpe",
+														"text": "5700|1.94|1.93|2021-06-23|",
+														"notes": null,
+														"layout": "map"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "vnbiqzfo",
+								"text": "AKR",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "qgbljvih",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "rdgeybco",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 18.92,
+												"children": [
+													{
+														"id": "ysotobot",
+														"text": "1500|1.19|1.21|2021-07-06|",
+														"notes": null,
+														"layout": "map"
+													}
+												]
+											},
+											{
+												"id": "gcjyzxok",
+												"text": "2021-07-07",
+												"notes": null,
+												"children": [
+													{
+														"id": "ixahgemh",
+														"text": "700|1.19|1.17|2021-07-06|",
+														"notes": null,
+														"layout": "map"
+													}
+												]
+											},
+											{
+												"id": "rywzeyax",
+												"text": "2021-07-07",
+												"notes": null,
+												"children": [
+													{
+														"id": "qfwneprf",
+														"text": "00|1|1|2021-07-06|",
+														"notes": null,
+														"layout": "map"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "sifohcit",
+								"text": "AWC",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "wlnjzbsy",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "tgxvllng",
+												"text": "2021-06-23",
+												"notes": null,
+												"children": [
+													{
+														"id": "motydujp",
+														"text": "2000|4.54|4.42|2021-06-20|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "lidxhlnw",
+								"text": "BANPU",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "axozowmd",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "hpnafsao",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 70.99,
+												"children": [
+													{
+														"id": "ixdoixlq",
+														"text": "200|13.22|13.60|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "cwhqfkpi",
+												"text": "2021-07-05",
+												"notes": null,
+												"children": [
+													{
+														"id": "zfekwoeo",
+														"text": "200|13.57|13.5|2021-07-02|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "jibbiqlh",
+								"text": "BROOK",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "zygupfcs",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "wjgfzvbe",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 1.54,
+												"children": [
+													{
+														"id": "jlmvvtwr",
+														"text": "200|.66|.67|2021-06-25|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "jcbffmvs",
+								"text": "CCP",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "fxvatzyp",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "zvbkpbfg",
+												"text": "2021-05-16",
+												"notes": null,
+												"children": [
+													{
+														"id": "ncjsufvx",
+														"text": "900|0.66|0.62|2021-04-22|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "lcopdnzb",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 5.51,
+												"children": [
+													{
+														"id": "nrkrjcfh",
+														"text": "700|0.63|0.64|2021-06-20|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "lsmjjjgj",
+												"text": "2021-06-30",
+												"notes": null,
+												"value": 6.29,
+												"children": [
+													{
+														"id": "qlgowdqb",
+														"text": "800|0.63|0.64|2021-06-20|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "mfebinet",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 2.34,
+												"children": [
+													{
+														"id": "ictjwppo",
+														"text": "300|0.63|0.66|2021-06-20|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "rwpaytju",
+												"text": "2021-07-07",
+												"notes": null,
+												"layout": "map",
+												"children": [
+													{
+														"id": "zzfwayaq",
+														"text": "300|0.65|.65|2021-07-06|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "nrnjvdjz",
+								"text": "CGD",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "tcglrcev",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "snjjpmyf",
+												"text": "2021-07-05",
+												"notes": null,
+												"children": [
+													{
+														"id": "qwvmzcik",
+														"text": "1600|.65|.61|2021-07-02|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "dkcqkkyp",
+								"text": "COTTO",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "fawbhayo",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "asykjint",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 12.5,
+												"children": [
+													{
+														"id": "cytbxxgu",
+														"text": "400|2.58|2.62|2021-06-22|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "dyqqkoqp",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 8.63,
+												"layout": "map",
+												"children": [
+													{
+														"id": "rjtddebc",
+														"text": "200|3.07|3.09|2021-07-06|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "wozoaxfq",
+												"text": "2021-07-07",
+												"notes": null,
+												"layout": "map",
+												"children": [
+													{
+														"id": "utjhyupn",
+														"text": "800|3.09|3.12|2021-07-06|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "ofnbapse",
+								"text": "DIMET",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "yotggass",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "gscbuemg",
+												"text": "2021-06-28",
+												"notes": null,
+												"value": 8.98,
+												"children": [
+													{
+														"id": "gtbcrlcx",
+														"text": "1000|.30|.31|2021-06-20|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "eozyeysq",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 4.47,
+												"children": [
+													{
+														"id": "yujqhbqe",
+														"text": "500|.31|.32|2021-06-20|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "shjbqdos",
+								"text": "GLOCON",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ofuqpkbc",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "uvuvwiwx",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 20.66,
+												"children": [
+													{
+														"id": "khatdlwb",
+														"text": "1000|1.28|1.31|2021-07-05|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "dvluvjwx",
+								"text": "GUNKUL",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "sdkbcryn",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "yzliharh",
+												"text": "2021-06-28",
+												"notes": null,
+												"value": 37.85,
+												"children": [
+													{
+														"id": "nhoydwum",
+														"text": "1400|4.81|4.84|2021-06-23|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "bwppvjeq",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 22.39,
+												"children": [
+													{
+														"id": "jedgslvo",
+														"text": "600|4.76|4.8|2021-06-28|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "wimheydy",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 58.26,
+												"children": [
+													{
+														"id": "wkiawgsc",
+														"text": "600|4.8|4.89|2021-06-29|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "njbgamdp",
+												"text": "2021-07-05",
+												"notes": null,
+												"value": 15.78,
+												"children": [
+													{
+														"id": "csjvdovi",
+														"text": "400|4.77|4.82|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "hibiljek",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 16.34,
+												"children": [
+													{
+														"id": "llqxdbqf",
+														"text": "300|4.77|4.85|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "sgigoujg",
+												"text": "2021-07-07",
+												"notes": null,
+												"children": [
+													{
+														"id": "kgiekeci",
+														"text": "200|4.77|4.80|2021-07-01|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "lxcbsfvn",
+								"text": "INGRS",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "mvgqwoav",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "soxlpmae",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 72.06,
+												"children": [
+													{
+														"id": "zazjwufx",
+														"text": "1500|1.1|1.2|2021-06-30|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "edlngedk",
+												"text": "2021-07-06",
+												"notes": null,
+												"children": [
+													{
+														"id": "ctlutakt",
+														"text": "2400|1.17|1.09|2021-07-01|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "nltwwcpe",
+								"text": "NOK",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "jrcejlmz",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "uiaowkzi",
+												"text": "2021-06-30",
+												"notes": null,
+												"value": -1703.89,
+												"children": [
+													{
+														"id": "xbnmezrx",
+														"text": "2200|2.27|1.49|2021-06-17|<br>",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "llhcbjep",
+								"text": "NWR",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ozhxtmjn",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "udcypxnj",
+												"text": "2021-06-23",
+												"notes": null,
+												"value": 8.38,
+												"children": [
+													{
+														"id": "fjhnycdm",
+														"text": "1200|1.14|1.15|2021-06-23|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "goxrsyok",
+								"text": "PIMO",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "iurqcrfg",
+										"text": "2020",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "vebdmsur",
+												"text": "2020-10-28",
+												"notes": null,
+												"value": 512,
+												"children": [
+													{
+														"id": "dhdizmvf",
+														"text": "1000|2.2|2.52|2020-09-22|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "uvchltmz",
+												"text": "2020-12-08",
+												"notes": null,
+												"value": 312,
+												"children": [
+													{
+														"id": "mxsflqbu",
+														"text": "1000|2.2|2.72|2020-09-22|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "vugcqxsw",
+												"text": "2021-01-19",
+												"notes": null,
+												"value": 162.33,
+												"children": [
+													{
+														"id": "trjwssyc",
+														"text": "1000|2.2|2.37|2020-09-22|BLS",
+														"notes": null
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "fpigsyvg",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "mlwxajol",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 171.64,
+												"children": [
+													{
+														"id": "rjqwaolq",
+														"text": "2000|3.88|3.97|2021-06-07|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "zvscnmwl",
+								"text": "SIRI",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "cukxbcws",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "anuvwayd",
+												"text": "2021-05-27",
+												"notes": null,
+												"value": 27.09,
+												"children": [
+													{
+														"id": "lzgadykw",
+														"text": "5000|1.36|1.37|2021-05-19|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "mwqulnii",
+												"text": "2021-05-28",
+												"notes": null,
+												"value": 67.83,
+												"children": [
+													{
+														"id": "mvccxyyd",
+														"text": "5000|1.31|1.33|2021-05-19|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "vgmhivns",
+												"text": "2021-05-28",
+												"notes": null,
+												"value": 2.12,
+												"children": [
+													{
+														"id": "lejmgrow",
+														"text": "200|1.35|1.36|2021-05-23|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "jysmnmyt",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 4.29,
+												"children": [
+													{
+														"id": "mzcjfyth",
+														"text": "600|1.34|1.35|2021-06-25|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "hpxskood",
+												"text": "2021-07-07",
+												"notes": null,
+												"layout": "map",
+												"children": [
+													{
+														"id": "hwmfpazl",
+														"text": "300|1.32|1.31|2021-07-06|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "vjdseqwf",
+								"text": "SITHAI",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "qbwvssqa",
+										"text": "2021<br>",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "qqcltfrz",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 15,
+												"children": [
+													{
+														"id": "unjupfcb",
+														"text": "1000|1.49|1.5|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "yediepcx",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 46.09,
+												"children": [
+													{
+														"id": "ipgctchw",
+														"text": "1000|1.45|1.5|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "wyimufdo",
+												"text": "2021-07-05",
+												"notes": null,
+												"value": 4.87,
+												"children": [
+													{
+														"id": "vjnygnhp",
+														"text": "200|1.65|1.68|2021-07-05|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "hsbajqoa",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 1.44,
+												"children": [
+													{
+														"id": "pehsdlrb",
+														"text": "100|1.65|1.67|2021-07-05|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "ckzjwddw",
+												"text": "2021-07-07",
+												"notes": null,
+												"children": [
+													{
+														"id": "mtbkljlo",
+														"text": "1000|1.67|1.64|2021-07-05|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "jqiutcta",
+								"text": "SKE",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "tfstqzdr",
+										"text": "2021<br>",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "nyrgmkfg",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 3.04,
+												"children": [
+													{
+														"id": "icwzikry",
+														"text": "500|1.16|1.17|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "vlmwkpml",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 1.21,
+												"children": [
+													{
+														"id": "jnnklslw",
+														"text": "200|1.16|1.17|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "ewtnkvsg",
+												"text": "2021-07-05",
+												"notes": null,
+												"value": 29.79,
+												"children": [
+													{
+														"id": "ugescuap",
+														"text": "300|1.16|1.26|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "ilrodqzg",
+												"text": "2021-07-07",
+												"notes": null,
+												"layout": "map",
+												"children": [
+													{
+														"id": "ifpqoqzm",
+														"text": "200|1.14|1.13|2021-07-06|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "lberezgy",
+								"text": "STARK",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "gijdxial",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "wxomwcou",
+												"text": "2021-06-30",
+												"notes": null,
+												"value": 13.3,
+												"children": [
+													{
+														"id": "wtjygyij",
+														"text": "300|3.89|3.91|2021-06-22|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "sokxdbfs",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 37.37,
+												"children": [
+													{
+														"id": "wxubggsx",
+														"text": "200|3.86|4.02|2021-06-22|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "wrhfbrsx",
+								"text": "TSTH",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "sjqsrfrv",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "dcatliva",
+												"text": "2021-06-28",
+												"notes": null,
+												"value": 10,
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "qrjxyfme",
+														"text": "1000|1.55|1.57|2021-06-27|<br>",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "wfsejxcu",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 177.61,
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "xcklljsc",
+														"text": "2900|1.55|1.71|2021-06-28|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "tbkbstqi",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 107.65,
+												"children": [
+													{
+														"id": "pdutujsh",
+														"text": "5000|1.76|1.79|2021-06-29|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "qmtnudhj",
+												"text": "2021-07-07",
+												"notes": null,
+												"children": [
+													{
+														"id": "wffamikd",
+														"text": "4200|1.79|1.82|2021-07-06|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "wiuirmxc",
+								"text": "TTA",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ugyqnfda",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "uiudngbu",
+												"text": "2021-06-25",
+												"notes": null,
+												"value": 34.59,
+												"children": [
+													{
+														"id": "swlesuwo",
+														"text": "100|16.03|16.4|2021-06-23|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "pgfujeoj",
+												"text": "2021-06-28",
+												"notes": null,
+												"value": 48.95,
+												"children": [
+													{
+														"id": "sueukjri",
+														"text": "200|16.2|16.55|2021-06-25|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "zuiafpyv",
+												"text": "2021-07-05",
+												"notes": null,
+												"children": [
+													{
+														"id": "piuvinqa",
+														"text": "200|15.58|15.4|2021-07-02|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "iukmvenh",
+								"text": "UKEM",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "simzholy",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "jomzqebt",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 6.05,
+												"children": [
+													{
+														"id": "llbjgrjr",
+														"text": "500|2.35|2.36|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "zmkwfppy",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 78.22,
+												"children": [
+													{
+														"id": "upbglckz",
+														"text": "1600|2.24|2.34|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "czfvxbku",
+												"text": "2021-07-05",
+												"notes": null,
+												"value": 208.12,
+												"children": [
+													{
+														"id": "bahbsnbs",
+														"text": "1100|2.58|2.78|2021-07-02|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "edyywypn",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 15.73,
+												"layout": "map",
+												"children": [
+													{
+														"id": "hrelctqk",
+														"text": "200|3.42|3.43|2021-07-06|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "wkwtgudu",
+												"text": "2021-07-07",
+												"notes": null,
+												"layout": "map",
+												"children": [
+													{
+														"id": "bgmqffiy",
+														"text": "900|3.61|3.46|2021-07-06|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "sksordgd",
+								"text": "VIBHA",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "pnakstrn",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "mohprkvh",
+												"text": "2021-04-26",
+												"notes": null,
+												"value": 444.95,
+												"children": [
+													{
+														"id": "fdctogsl",
+														"text": "8000|2.39|2.45|2021-04-22|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "febcstaq",
+												"text": "2021-07-05",
+												"notes": null,
+												"value": 26.54,
+												"children": [
+													{
+														"id": "ixjoolne",
+														"text": "300|2.41|2.5|2021-06-26|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "lecoalqx",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 33.02,
+												"children": [
+													{
+														"id": "krpsdobq",
+														"text": "600|2.47|2.5|2021-06-26|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "twfkoysx",
+												"text": "2021-07-07",
+												"notes": null,
+												"layout": "map",
+												"children": [
+													{
+														"id": "ehozxccb",
+														"text": "800|2.47|2.44|2021-07-06|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "loeuvrea",
+								"text": "VPO",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "opzwelok",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "zktujrmk",
+												"text": "2021-07-06",
+												"notes": null,
+												"value": 2.47,
+												"layout": "map",
+												"children": [
+													{
+														"id": "frbzompk",
+														"text": "100|1.57|1.6|2021-07-06|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "pysnredw",
+												"text": "2021-07-07",
+												"notes": null,
+												"layout": "map",
+												"children": [
+													{
+														"id": "nwpqeulp",
+														"text": "100|1.57|1.6|2021-07-06|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "qkmtolbe",
+								"text": "WHA",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "wcqrdfkz",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "rlucpzil",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 29.5,
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "tvnvxrjw",
+														"text": "600|3.21|3.26|2021-06-29|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "nskvnurv",
+												"text": "2021-06-30",
+												"notes": null,
+												"value": 14.74,
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "iyvpbnqf",
+														"text": "300|3.21|3.26|2021-06-29|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "mpevnnfi",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 2.63,
+												"children": [
+													{
+														"id": "luxxttif",
+														"text": "200|3.22|3.24|2021-06-29|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "nikezugz",
+												"text": "2021-07-05",
+												"notes": null,
+												"children": [
+													{
+														"id": "wcxlgmps",
+														"text": "900|3.21|3.20|2021-07-01|",
+														"notes": null
+													}
+												]
+											}
+										]
 									}
 								]
 							}
 						]
 					},
 					{
-						"id": "sksordgd",
-						"text": "VIBHA",
+						"id": "pkxrhbur",
+						"text": "DW",
 						"notes": null,
 						"value": "sum",
+						"collapsed": 1,
 						"children": [
 							{
-								"id": "mohprkvh",
-								"text": "2021-04-26",
+								"id": "iwxhxuik",
+								"text": "ACE13C2107A",
 								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
 								"children": [
 									{
-										"id": "fdctogsl",
-										"text": "8000|2.39|2.52",
-										"notes": null
+										"id": "lnbfjqnu",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "dutlalfl",
+												"text": "2021-03-22",
+												"notes": null,
+												"value": 100,
+												"children": [
+													{
+														"id": "aqxndqmg",
+														"text": "10000|0.44|0.45|2021-03-22|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "plytswqj",
+												"text": "2021-03-23",
+												"notes": null,
+												"value": 26.99,
+												"children": [
+													{
+														"id": "szytsozt",
+														"text": "2000|0.45|0.46|2021-03-22|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "ymihyaoo",
+												"text": "2021-03-26",
+												"notes": null,
+												"value": -3.9,
+												"children": [
+													{
+														"id": "tjxmbjci",
+														"text": "2000|0.58|0.58|2021-03-26|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "oljilten",
+								"text": "AEON13C2104A",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "jkmgdbmz",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "smrdabmv",
+												"text": "2021-01-13",
+												"notes": null,
+												"value": 187.23,
+												"children": [
+													{
+														"id": "ysoppuwv",
+														"text": "10000|0.37|0.39|2021-01-13|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "whcyjcoq",
+												"text": "2021-03-15",
+												"notes": null,
+												"value": -7268.89,
+												"children": [
+													{
+														"id": "sjsciieg",
+														"text": "25000|0.37|0.08|2021-01-13|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "quqijglh",
+												"text": "2021-03-29",
+												"notes": null,
+												"value": -7368.72,
+												"children": [
+													{
+														"id": "wlamoypa",
+														"text": "25000|0.37|0.076|2021-01-13|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "opbezjjk",
+												"text": "2021-01-12",
+												"notes": null,
+												"value": 886.73,
+												"layout": "map",
+												"children": [
+													{
+														"id": "fbewfxyn",
+														"text": "10000|.35|.44|2021-01-11|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "avblwhjl",
+								"text": "AEON13C2106A",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ghiepirw",
+										"text": "2021<br>",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "lhwduhbt",
+												"text": "2021-03-24",
+												"notes": null,
+												"value": 59.97,
+												"children": [
+													{
+														"id": "hufewkbp",
+														"text": "5000|0.63|0.64|2021-03-24|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "eqgiwijx",
+												"text": "2021-03-26",
+												"notes": null,
+												"value": -395.71,
+												"children": [
+													{
+														"id": "mtiepsnq",
+														"text": "3000|0.63|0.5|2021-03-24|BLS",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "huhrfmjx",
+								"text": "AEON13C2106B",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "pvcuaqcb",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "hxjohgcq",
+												"text": "2021-03-29",
+												"notes": null,
+												"value": 239.97,
+												"layout": "map",
+												"children": [
+													{
+														"id": "elklwatk",
+														"text": "30000|0.6|0.61|2021-03-29|BLS",
+														"notes": null,
+														"layout": "map"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "smmnbcxe",
+								"text": "BANP13C2111A",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "lrlvfsnf",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "gtnwxvbq",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 37.22,
+												"children": [
+													{
+														"id": "wcihqrmg",
+														"text": "2600|.16|.17|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "lcalszlx",
+												"text": "2021-07-02",
+												"notes": null,
+												"children": [
+													{
+														"id": "qrktjfho",
+														"text": "1900|.16|.14|2021-07-05|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "yuaifymb",
+								"text": "GUNK13C2111A",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "lrwihouz",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "wjmkhcoz",
+												"text": "2021-06-28",
+												"notes": null,
+												"value": 8.22,
+												"children": [
+													{
+														"id": "ypktudsg",
+														"text": "1100|.21|.22|2021-06-20|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "risfbzee",
+								"text": "JMT13C2107A<br>",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "aufgncaf",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "ordswdvf",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": -5710.07,
+												"layout": "map",
+												"children": [
+													{
+														"id": "ikdybcjr",
+														"text": "15000|1.3|.01|2021-04-29|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "lahfwfgb",
+												"text": "2021-06-30",
+												"notes": null,
+												"value": -3756.64,
+												"layout": "map",
+												"children": [
+													{
+														"id": "xynsyvpl",
+														"text": "10000|1.3|.01|2021-04-29|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "wxwsyguo",
+								"text": "KBAN13C2111A",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "umwhbggq",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "gkfxltdy",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 13.56,
+												"children": [
+													{
+														"id": "deqhobwo",
+														"text": "1000|.42|.44|2021-06-29|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "llspxjyz",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 15.84,
+												"children": [
+													{
+														"id": "fxzfytos",
+														"text": "3000|.41|.42|2021-06-29|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "hvnbsfmd",
+								"text": "OCEAN-W3",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "vynlhbxc",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "adsqssrn",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 3.69,
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "rtoxkkjq",
+														"text": "500|.77|.78|2021-06-29|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "rnufxrdx",
+												"text": "2021-06-30",
+												"notes": null,
+												"children": [
+													{
+														"id": "iyseaflm",
+														"text": "200|.77|.76|2021-06-29|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "pxvtkznq",
+								"text": "SCB13C2110A",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "tejwmrpf",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "lxwwkpes",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 27.86,
+												"children": [
+													{
+														"id": "djoruczh",
+														"text": "2400|.26|.27|2021-06-28|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "ynaeyqha",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 4.12,
+												"children": [
+													{
+														"id": "qvinezig",
+														"text": "500|.25|.26|2021-06-28|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "owkogeun",
+												"text": "2021-07-02",
+												"notes": null,
+												"children": [
+													{
+														"id": "xutcqzux",
+														"text": "600|.25|.25|2021-07-01|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "jricqtpc",
+								"text": "PTT13C2110A",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ieoqpovd",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "sxcdhxvp",
+												"text": "2021-07-05",
+												"notes": null,
+												"children": [
+													{
+														"id": "nlhtvrey",
+														"text": "2100|.20|.16|2021-06-26|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "knueexbp",
+						"text": "Warrant",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "vhkbnffn",
+								"text": "CGD-W5",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "hhjcrgsd",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "jtfbgjvc",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 9.41,
+												"children": [
+													{
+														"id": "xqhjvmbr",
+														"text": "1000|0.17|0.18|2021-06-26|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "auwoeacu",
+								"text": "CGH-W4",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "oxsgmadm",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "nzovaebw",
+												"text": "2021-07-05",
+												"notes": null,
+												"children": [
+													{
+														"id": "dtetcnkv",
+														"text": "1600|.32|.24|2021-06-27|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "hgqakwum",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 28.88,
+												"children": [
+													{
+														"id": "cuamzddv",
+														"text": "2100|.26|.27|2021-06-27|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "mvjtxsec",
+												"text": "2021-06-30",
+												"notes": null,
+												"value": 26.52,
+												"children": [
+													{
+														"id": "gitqonry",
+														"text": "600|.26|.27|2021-06-28|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "udtkgtsy",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 4.25,
+												"children": [
+													{
+														"id": "orktqmzm",
+														"text": "300|.25|.26|2021-06-28|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "ohnnuife",
+												"text": "2021-07-02",
+												"notes": null,
+												"value": 5.48,
+												"children": [
+													{
+														"id": "ynfgelgz",
+														"text": "600|.25|.26|2021-07-01|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "rbedqrpd",
+												"text": "2021-07-05",
+												"notes": null,
+												"children": [
+													{
+														"id": "xlzdhzav",
+														"text": "1000|.25|.24|2021-07-02|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "qtqebbbx",
+								"text": "DIMET-W4",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "vxultybf",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "foyujeaz",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 9.61,
+												"children": [
+													{
+														"id": "fymtngvu",
+														"text": "1000|.11|.12|2021-06-25|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "qnrvfcsg",
+								"text": "ERW-W3",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "xgfgmatn",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "yzawfynl",
+												"text": "2021-06-28",
+												"notes": null,
+												"value": 77.62,
+												"children": [
+													{
+														"id": "ndpjfsro",
+														"text": "3600|1.42|1.44|2021-06-27|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "txffwfey",
+												"text": "2021-06-29",
+												"notes": null,
+												"value": 43.98,
+												"children": [
+													{
+														"id": "daeabouj",
+														"text": "1500|1.77|1.82|2021-06-27|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "zjnagsah",
+												"text": "2021-06-30",
+												"notes": null,
+												"children": [
+													{
+														"id": "zpnthmwm",
+														"text": "3300|1.77|1.52|2021-06-29|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "ayzdjtna",
+								"text": "FLOYD-W1",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "bnmxznbq",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "qrzualbv",
+												"text": "2021-07-30",
+												"notes": null,
+												"children": [
+													{
+														"id": "aqadacmz",
+														"text": "1300|.82|.78|2021-06-29|BLS",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "hmwevokc",
+												"text": "2021-07-30",
+												"notes": null,
+												"children": [
+													{
+														"id": "okeeumxs",
+														"text": "2700|.82|.75|2021-06-29|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "vvmcizvj",
+								"text": "OCEAN-W3",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "srnsnbuc",
+										"text": "2021",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "obfgsllt",
+												"text": "2021-06-25",
+												"notes": null,
+												"value": 9.6,
+												"children": [
+													{
+														"id": "mcqbgpmd",
+														"text": "1300|0.77|0.78|2021-06-24|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "alyperin",
+												"text": "2021-06-25",
+												"notes": null,
+												"value": 3.69,
+												"children": [
+													{
+														"id": "mnlnxoxy",
+														"text": "500|0.77|0.78|2021-06-24|",
+														"notes": null
+													}
+												]
+											},
+											{
+												"id": "tqeevhgp",
+												"text": "2021-07-05",
+												"notes": null,
+												"children": [
+													{
+														"id": "zzmgoahm",
+														"text": "400|0.74|0.71|2021-06-25|",
+														"notes": null
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "vmrwwdxp",
+				"text": "Portfolio",
+				"notes": null,
+				"side": "right",
+				"icon": "fa-briefcase",
+				"value": "sum",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "kpctpdmh",
+						"text": "Keaw",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "vcccvlmv",
+								"text": "BLS",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "jkqvuyeb",
+										"text": "In",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "kglpuerv",
+												"text": "2020-09-09",
+												"notes": null,
+												"value": 119900
+											},
+											{
+												"id": "ovsptthm",
+												"text": "2020-09-14",
+												"notes": null,
+												"value": 80000
+											},
+											{
+												"id": "ijqnazbf",
+												"text": "2020-09-28",
+												"notes": null,
+												"value": 30000
+											},
+											{
+												"id": "yondecsq",
+												"text": "2020-10-08",
+												"notes": null,
+												"value": 30000
+											},
+											{
+												"id": "litdbgtm",
+												"text": "2021-01-21",
+												"notes": null,
+												"value": 100000
+											}
+										]
+									},
+									{
+										"id": "cxbybadv",
+										"text": "Out",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "dksjbfpf",
+												"text": "2020-11-15",
+												"notes": null,
+												"value": -10000
+											},
+											{
+												"id": "bwexxrtn",
+												"text": "2021-02-18",
+												"notes": null,
+												"value": -15000
+											},
+											{
+												"id": "splhrmcb",
+												"text": "2021-03-01",
+												"notes": null,
+												"value": -24000
+											},
+											{
+												"id": "zsbciavd",
+												"text": "2021-03-09",
+												"notes": null,
+												"value": -10000
+											},
+											{
+												"id": "agufeket",
+												"text": "2021-03-15",
+												"notes": null,
+												"value": -16000
+											},
+											{
+												"id": "uttdaegr",
+												"text": "2021-03-22",
+												"notes": null,
+												"value": -10000
+											},
+											{
+												"id": "fbdkhdjh",
+												"text": "2021-03-24",
+												"notes": null,
+												"value": -10000
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "wpalgkkq",
+								"text": "FNS",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ikolacbm",
+										"text": "In",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "qrfvxpsm",
+												"text": "2021-01-21",
+												"notes": null,
+												"value": 480000
+											},
+											{
+												"id": "yjwnuspw",
+												"text": "2021-05-27",
+												"notes": null,
+												"value": 5000
+											},
+											{
+												"id": "yunsyivi",
+												"text": "2021-06-04",
+												"notes": null,
+												"value": 5000
+											},
+											{
+												"id": "ksmlcnyp",
+												"text": "2021-06-10",
+												"notes": null,
+												"value": 10000
+											},
+											{
+												"id": "poikwofg",
+												"text": "2021-06-24",
+												"notes": null,
+												"value": 1400
+											},
+											{
+												"id": "oexsjkry",
+												"text": "2021-07-01",
+												"notes": null,
+												"value": 5000
+											}
+										]
+									},
+									{
+										"id": "chodgelq",
+										"text": "Out",
+										"notes": null,
+										"value": "sum",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "wjzqanrk",
+												"text": "2021-01-27",
+												"notes": null,
+												"value": -100000
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "emodonak",
+						"text": "Yu",
+						"notes": null,
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "jgitormm",
+								"text": "BLS<br>",
+								"notes": null,
+								"value": "sum",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "dqhsbbjl",
+										"text": "In",
+										"notes": null,
+										"value": "sum",
+										"children": [
+											{
+												"id": "ddigoghu",
+												"text": "2020-08-08",
+												"notes": null,
+												"value": 51000
+											},
+											{
+												"id": "sxrvfoqf",
+												"text": "2020-09-09",
+												"notes": null,
+												"value": 50000
+											},
+											{
+												"id": "fetjxfmn",
+												"text": "2020-11-11",
+												"notes": null,
+												"value": 100000
+											},
+											{
+												"id": "mbphdsek",
+												"text": "2020-12-03",
+												"notes": null,
+												"value": 100000
+											},
+											{
+												"id": "fwlcwqvy",
+												"text": "2020-12-05",
+												"notes": null,
+												"value": 100000
+											},
+											{
+												"id": "vwsmwigf",
+												"text": "2020-12-08",
+												"notes": null,
+												"value": 100000
+											}
+										]
 									}
 								]
 							}
@@ -1327,15 +4706,40 @@
 								"children": [
 									{
 										"id": "jvgykvqf",
-										"text": "2016-06-26",
+										"text": "2021-06-26",
 										"notes": null,
-										"value": "sum",
+										"value": 1,
 										"children": [
 											{
 												"id": "mvnaqlup",
 												"text": "23:40",
-												"notes": null,
-												"value": 1
+												"notes": null
+											}
+										]
+									},
+									{
+										"id": "jxkypuuf",
+										"text": "2021-06-28",
+										"notes": null,
+										"value": 1,
+										"children": [
+											{
+												"id": "rceieizw",
+												"text": "16:30",
+												"notes": null
+											}
+										]
+									},
+									{
+										"id": "wapalzxb",
+										"text": "2021-07-06",
+										"notes": null,
+										"value": 1,
+										"children": [
+											{
+												"id": "pgcfupqg",
+												"text": "14:36",
+												"notes": null
 											}
 										]
 									}
@@ -1344,31 +4748,312 @@
 						]
 					},
 					{
-						"id": "gvlfntjr",
+						"id": "dkeagfgv",
 						"text": "Part A<br>",
 						"notes": null,
 						"value": "sum",
 						"collapsed": 1,
 						"children": [
 							{
-								"id": "yuuecjta",
+								"id": "efqekhls",
 								"text": "Tha Tha<br>",
 								"notes": null,
 								"value": "sum",
+								"collapsed": 1,
 								"children": [
 									{
 										"id": "oznjgwwb",
-										"text": "2016-06-22",
+										"text": "2021-06-22",
 										"notes": null,
-										"value": "sum",
+										"value": 1,
 										"children": [
 											{
 												"id": "rsqbsnte",
 												"text": "21:00",
-												"notes": null,
-												"value": 1
+												"notes": null
 											}
 										]
+									},
+									{
+										"id": "idynihxt",
+										"text": "2021-07-02",
+										"notes": null,
+										"value": 1,
+										"children": [
+											{
+												"id": "mwxqtupq",
+												"text": "21:00",
+												"notes": null
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "dsjhumlv",
+						"text": "Part N<br>",
+						"notes": null,
+						"value": "sum",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "uuycswlz",
+								"text": "A House<br>",
+								"notes": null,
+								"value": "sum",
+								"children": [
+									{
+										"id": "ozieepyb",
+										"text": "2021-06-30",
+										"notes": null,
+										"value": 1,
+										"children": [
+											{
+												"id": "ggjnxaim",
+												"text": "23:00",
+												"notes": null
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "nrsrxqgo",
+				"text": "Watch List<br>",
+				"notes": null,
+				"side": "right",
+				"color": "#000",
+				"icon": "fa-eye",
+				"children": [
+					{
+						"id": "cggngaal",
+						"text": "THCOM",
+						"notes": null
+					},
+					{
+						"id": "jgqbarhi",
+						"text": "MICRO",
+						"notes": null
+					},
+					{
+						"id": "bszadtxr",
+						"text": "AEONTS<br>",
+						"notes": null
+					}
+				]
+			},
+			{
+				"id": "ysgnkawz",
+				"text": "Data<br>",
+				"notes": null,
+				"side": "left",
+				"icon": "fa-database",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "ftwnvbys",
+						"text": "Xyz",
+						"notes": null,
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "xiagnxrb",
+								"text": "<a href=\"https://www.xvideos.com/video63675719/naughty_brie_klein_is_always_a_hard_headed_teen_and_she_always_challenges_the_authority_of_her_stepdad_preston._preston_gave_her_some_spanking\">Naughty Bire Klein is always a hard headed teen and she always challenges the authority of her stepdad preston preston gave her some spanking</a>",
+								"notes": null
+							},
+							{
+								"id": "vdoohmth",
+								"text": "<a href=\"https://www.xvideos.com/video8711633/nubiles_casting_-_tiny_tit_babe_tries_out_for_porn_hardcore_style\">Nubiles casting - tiny tit babe tries out for porn hardcore style</a>",
+								"notes": null,
+								"collapsed": 1
+							},
+							{
+								"id": "uozjvnbl",
+								"text": "Blacked",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "xqgooyfc",
+										"text": "<a href=\"https://www.xvideos.com/video50277715/blacked_she_s_never_had_bbc_and_wanted_to_treat_herself\">Blacked she s never had bbc and wanted to treat herself</a>",
+										"notes": null
+									}
+								]
+							},
+							{
+								"id": "osrifxub",
+								"text": "Daddy",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ppmzochf",
+										"text": "<a href=\"https://www.xvideos.com/video59590993/dad_teaches_ungrateful_daughter_a_lesson-_brie_klein\">Dad teaches ungrateful daughter a lesson - Brie Klein</a>",
+										"notes": null
+									},
+									{
+										"id": "aitxpaup",
+										"text": "<a href=\"https://www.xvideos.com/video59452949/youll_have_to_learn_the_lesson_brie_klein\">You ll have to learn the lesson Brie Klein</a>",
+										"notes": null
+									}
+								]
+							},
+							{
+								"id": "dhvdnxxm",
+								"text": "Elena Koshka<br>",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "nevsjuhi",
+										"text": "<a href=\"https://www.xvideos.com/video38106355/elena_koshka_-_making_the_boss_happy\">https://www.xvideos.com/video38106355/elena_koshka_-_making_the_boss_happy</a>",
+										"notes": null
+									}
+								]
+							},
+							{
+								"id": "dgfxfgxn",
+								"text": "Emily Grey",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "kglofrvm",
+										"text": "<a href=\"https://www.xvideos.com/video7808195/casting_couch-x_h._sweethearts_start_in_porn\">Casting couch-x h. sweethearts start in porn</a>",
+										"notes": null
+									},
+									{
+										"id": "ykknnerx",
+										"text": "<a href=\"https://www.xvideos.com/video23433462/nubiles-porn_accidental_creampie_for_teen_schoolgirl\">Nubiles-porn accidental creampie for teen schoolgirl</a>",
+										"notes": null
+									},
+									{
+										"id": "rszgzbah",
+										"text": "<a href=\"https://www.xvideos.com/video10732328/college_teen_gets_a_gooey_creampie\">College teen gets a gooey creampie</a>",
+										"notes": null
+									},
+									{
+										"id": "evlfyruj",
+										"text": "<a href=\"https://www.xvideos.com/video33726285/twistys_-_emily_grey_starring_at_you_spin_my_head_right_round\">Twistys - Emily Grey starring at you spin my head right round</a>",
+										"notes": null
+									},
+									{
+										"id": "vmigbdsz",
+										"text": "<a href=\"https://www.xvideos.com/video32622611/dude_helps_a_teen_pornstar_and_gives_her_a_creampie\">Dude helps a teen pornstar and gives her a creampie</a>",
+										"notes": null
+									},
+									{
+										"id": "mwddguyv",
+										"text": "<a href=\"https://www.xvideos.com/video22660119/fantasyhd_-_fun_with_ice_cubes_on_a_hot_summer_day_with_emily_grey\">Fantasyhd - fun with ice cubes on a hot summer day with Emily Grey</a>",
+										"notes": null
+									},
+									{
+										"id": "iijwjivp",
+										"text": "<a href=\"https://www.xvideos.com/video29309931/crystal_greenvelle_in_10_min_-_luscious_fruit\">Crystal_greenvelle_in_10_min_-_luscious_fruit</a>",
+										"notes": null
+									},
+									{
+										"id": "yxosmlhy",
+										"text": "<a href=\"https://www.xvideos.com/video9528737/HD - fantasyhd teen Emily Grey fucks with black thigh highs\">Hd_-_fantasyhd_teen_emily_grey_fucks_with_black_thigh_highs</a>",
+										"notes": null
+									}
+								]
+							},
+							{
+								"id": "dddvumix",
+								"text": "Megan Salinas<br>",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "wdkclpmz",
+										"text": "<a href=\"https://www.xvideos.com/video28255143/cute_latina_being_fucked_by_hard_dick\">Cute latina being fucked by hard dick</a>",
+										"notes": null
+									},
+									{
+										"id": "tyfbpzhz",
+										"text": "<a href=\"https://www.xvideos.com/video13203893/cocksucking_busty_girlfriend_facialized\">Cocksucking busty girlfriend facialized</a>",
+										"notes": null
+									},
+									{
+										"id": "jhkifref",
+										"text": "<a href=\"https://www.xvideos.com/video30418557/brazzers_-_dirty_masseur_-_megan_salinas_and_bill_bailey_-_try_before_you_buy\">Brazzers - dirty masseur - megan salinas and bill bailey - try before you buy</a>",
+										"notes": null
+									}
+								]
+							},
+							{
+								"id": "seqkfbdy",
+								"text": "Pure Taboo<br>",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "iuzqulgp",
+										"text": "<a href=\"https://www.xvideos.com/video30533799/teen_babe_firsttime_creampie_by_taboo_doctor\">https://www.xvideos.com/video30533799/teen_babe_firsttime_creampie_by_taboo_doctor</a>",
+										"notes": null
+									},
+									{
+										"id": "lojxcepm",
+										"text": "<a href=\"https://www.xvideos.com/video60587289/jaye_summers_fucks_her_step-uncle\">https://www.xvideos.com/video60587289/jaye_summers_fucks_her_step-uncle</a>",
+										"notes": null
+									}
+								]
+							},
+							{
+								"id": "kfonmirx",
+								"text": "Shae Summers<br>",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "rbvxobgk",
+										"text": "<a href=\"https://www.xvideos.com/video11614699/busty_bigcock_loving_teen_has_pussy_jizzed_on\">Busty bigcock loving teen has pussy jizzed on</a>",
+										"notes": null
+									},
+									{
+										"id": "gvioichl",
+										"text": "<a href=\"https://www.xvideos.com/video39449292/_shae_summers_gets_oiled_up_massaged_and_fucked_-_reality_kings\">Shae Summers gets oiled up massaged and fucked - reality kings</a>",
+										"notes": null
+									},
+									{
+										"id": "edmqmjrv",
+										"text": "<a href=\"https://www.xvideos.com/video9699728/sensual_amateur_girlfriend_pleasures_guy\">Sensual amateur girlfriend pleasures guy</a>",
+										"notes": null
+									},
+									{
+										"id": "jisrpweh",
+										"text": "<a href=\"https://www.xvideos.com/video7955775/big_tits_shae_summers_gives_head_to_her_date_with_a_big_cock\">Big tits Shae Summers gives head to her date with a big cock</a>",
+										"notes": null
+									},
+									{
+										"id": "vnwhpbez",
+										"text": "<a href=\"https://www.xvideos.com/video30575249/realitykings_-_big_naturals_-_jmac_shae_summers_-_fun_in_the_sun\">realitykings - big naturals - jmac Shae Summers - fun in the sun</a>",
+										"notes": null
+									},
+									{
+										"id": "stzjhycy",
+										"text": "<a href=\"https://www.xvideos.com/video30019475/realitykings_-_in_the_vip_-_lick_it_up\">realitykings - in the vip - lick it up</a>",
+										"notes": null
+									}
+								]
+							},
+							{
+								"id": "idalenpj",
+								"text": "Stepsisters",
+								"notes": null,
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "tgfdctkj",
+										"text": "<a href=\"https://www.xvideos.com/video62123209/teen_stepsis_gets_pussy_licked\">https://www.xvideos.com/video62123209/teen_stepsis_gets_pussy_licked</a>",
+										"notes": null
 									}
 								]
 							}

@@ -125,6 +125,8 @@ const Exp = () => {
 			return r;
 		}, {})
 
+		console.log("exp - line :", group)
+
 		const out = []
 		let colorCnt = 0
 
