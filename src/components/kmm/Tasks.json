@@ -121,13 +121,13 @@
 								"notes": null,
 								"icon": "fa-exchange",
 								"value": "sum",
-								"collapsed": 1,
 								"children": [
 									{
 										"id": "rofshbzx",
 										"text": "Stock",
 										"notes": null,
 										"value": "sum",
+										"collapsed": 1,
 										"children": [
 											{
 												"id": "jkvicuue",
@@ -192,6 +192,12 @@
 											{
 												"id": "homkbhgg",
 												"text": "2021-07-06",
+												"notes": null,
+												"value": 180
+											},
+											{
+												"id": "ibtbpvzi",
+												"text": "2021-07-07",
 												"notes": null,
 												"value": 180
 											}
@@ -1056,7 +1062,6 @@
 								"text": "Novel",
 								"notes": null,
 								"value": "sum",
-								"collapsed": 1,
 								"children": [
 									{
 										"id": "yulkmdru",
@@ -1087,6 +1092,20 @@
 														"text": "2021-07-05",
 														"notes": null,
 														"value": 45,
+														"collapsed": 1
+													},
+													{
+														"id": "mgtrndgg",
+														"text": "2021-07-06",
+														"notes": null,
+														"value": 15,
+														"collapsed": 1
+													},
+													{
+														"id": "yiofzobn",
+														"text": "2021-07-07",
+														"notes": null,
+														"value": 60,
 														"collapsed": 1
 													}
 												]
@@ -1342,6 +1361,7 @@
 						"icon": "fa-child",
 						"value": "sum",
 						"shape": "box",
+						"collapsed": 1,
 						"children": [
 							{
 								"id": "loxiifvx",
@@ -1349,6 +1369,7 @@
 								"notes": null,
 								"value": "sum",
 								"status": "computed",
+								"collapsed": 1,
 								"children": [
 									{
 										"id": "fvayzfxm",

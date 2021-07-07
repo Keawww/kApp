@@ -16,6 +16,7 @@ import { Layout, Menu, Button, Row, Col, Tooltip, Avatar } from 'antd'
 import {
 	AppstoreOutlined,
 	BranchesOutlined,
+	DatabaseOutlined,
 	DollarCircleOutlined,
 	DownloadOutlined,
 	HourglassOutlined,
@@ -100,51 +101,53 @@ const Main = () => {
 						</Menu.Item>
 						 */}
 
-						<Menu.Item key="11" icon={<BranchesOutlined />}>
+						<Menu.Item key="1" icon={<BranchesOutlined />}>
 							<Link to="/kMM/0">kMM</Link>
 						</Menu.Item>
 
-						<Menu.Item key="5" icon={<HourglassOutlined />}>
-							<Link to="/Pomodoro/0">Pomodoro</Link>
-						</Menu.Item>
-
-						<Menu.Item key="1" icon={<PieChartOutlined />}>
+						<Menu.Item key="2" icon={<PieChartOutlined />}>
 							{/* <Link to="/ListAllNumbers">List</Link> */}
 							<Link to="/InvenDash">Summary</Link>
+						</Menu.Item>
+
+						<Menu.Item key="5" icon={<AppstoreOutlined />}>
+							<Link to="/Portfolio/0">Portfolio</Link>
 						</Menu.Item>
 
 						<SubMenu key="3" icon={<DollarCircleOutlined />} title="Coins">
 							<Menu.Item key="31" icon={<DollarCircleOutlined />}>
 								<Link to="/Coin/0">Coins</Link>
 							</Menu.Item>
-							<Menu.Item key="7" icon={<DollarCircleOutlined />}>
+							<Menu.Item key="32" icon={<DollarCircleOutlined />}>
 								<Link to="/Coin/0">Coins INVESTMENT</Link>
 							</Menu.Item>
 						</SubMenu>
 
-						<SubMenu key="6" icon={<WalletTwoTone />} title="Expenses">
-							<Menu.Item key="61" icon={<DesktopOutlined />}>
+						<SubMenu key="4" icon={<WalletTwoTone />} title="Expenses">
+							<Menu.Item key="41" icon={<DesktopOutlined />}>
 								<Link to="/Exp/0">Web</Link>
 							</Menu.Item>
 
-							<Menu.Item key="62" icon={<MobileOutlined />}>
+							<Menu.Item key="42" icon={<MobileOutlined />}>
 								<Link to="/exp-mob/0">Mobile</Link>
 							</Menu.Item>
 						</SubMenu>
 
-						<Menu.Item key="10" icon={<AppstoreOutlined />}>
-							<Link to="/Portfolio/0">Portfolio</Link>
-						</Menu.Item>
+						<SubMenu key="6" icon={<DatabaseOutlined />} title="Database Version">
+							<Menu.Item key="61" icon={<HourglassOutlined />}>
+								<Link to="/Pomodoro/0">Pomodoro</Link>
+							</Menu.Item>
 
-						<Menu.Item key="4" icon={<StockOutlined />}>
-							<Link to="/Trading/0">Trading</Link>
-						</Menu.Item>
+							<Menu.Item key="62" icon={<StockOutlined />}>
+								<Link to="/Trading/0">Trading</Link>
+							</Menu.Item>
+						</SubMenu>
 
 						{/* <Menu.Item key="11" icon={<NodeExpandOutlined />}>
 							<Link to="/Timeline/0">Timeline</Link>
 						</Menu.Item> */}
 
-						<Menu.Item key="8" icon={<DownloadOutlined />}>
+						<Menu.Item key="7" icon={<DownloadOutlined />}>
 							<Link to="/Export/0">Export SQL</Link>
 						</Menu.Item>
 

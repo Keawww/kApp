@@ -296,6 +296,8 @@ const Export = () => {
 		let period = moment().format('YYYY-MM')
 		let periodPos = 8
 
+		console.log( viewChartBy)
+
 		if ( viewChartBy != "Monthly" ) {
 
 			period = moment().format('YYYY')
@@ -452,6 +454,8 @@ const Export = () => {
 			// res2.push({id: o[3], value: (parseFloat(value[0]) * parseFloat(value[1])) })
 
 			// By Sell Date
+
+			console.log("periodPos", periodPos);
 
 			if ( period == o[datePos].substring(0, periodPos).trim() ) {
 
@@ -615,9 +619,8 @@ const Export = () => {
 
 	const onViewChart = (e) => {
 
+		setViewChart(e)
 		chartLine(listChartData(e))
-		// console.log(e);
-		// setViewChart(e)
 
 	} // END: onViewChart
 
@@ -662,6 +665,8 @@ const Export = () => {
 
 	useEffect(() => {
 
+		// chart(listChartData(e))
+		// chartLine(listChartData(e))
 		// chartLine(viewChartBy)
 
 	}, [viewChartBy])
@@ -731,7 +736,7 @@ const Export = () => {
 					<Col span={13}>
 						<div dangerouslySetInnerHTML={{__html: htmlContent }} />
 					</Col>
-					<Col span={9}>
+					<Col span={10}>
 						<Line data={cDataLine} options={cOptLine} />
 						<Doughnut data={cData} options={cOpt} />
 					</Col>
