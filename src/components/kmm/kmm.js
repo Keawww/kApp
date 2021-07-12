@@ -17,6 +17,9 @@ import './kmm.css'
 import { exportsGet, get } from '../../services/services';
 
 const mm = require('./Tasks.json')
+const mmURL = 'https://drive.google.com/file/d/1M3zRQidbgx7d_N7Obopb0cQc0ipVn6jn/view?usp=sharing'
+
+
 
 const Export = () => {
 
@@ -30,8 +33,10 @@ const Export = () => {
 	const searchRef = React.useRef()
 	const [unrealized, setUnrealized] = useState(true)
 	const [viewChartBy, setViewChart] = useState('Monthly')
+	const [viewType, setViewType] = useState('pomodoro')
 	const [cData, setCData ] = useState({})
 	const [cDataLine, setCDataLine ] = useState({})
+
 	const cBorderColor = [
 		'paleGreen', 'limeGreen', 'forestGreen', 'yellowGreen', 'teal', 
 		'dodgerBlue', 'cornFlowerBlue', 'RoyalBlue', 'deepSkyBlue',
@@ -151,9 +156,47 @@ const Export = () => {
 
 			labs = [ 'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC' ]
 
-			o.forEach((o) => {
-				dd.push(parseInt(o.profit))
-			})
+			// o.forEach((o) => {
+			// 	dd.push(parseInt(o.profit))
+			// })
+
+			for ( const prop in o[0].data ) {
+
+				if ( prop == "Projects" || prop == "Pomodoro" ) { continue }
+
+				let dd = [
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+
+				o[0].data[prop].forEach((o) => {
+
+					for ( let i = 1; i < 12; i++ ) {
+
+						// console.log( parseInt((o.id.trim()).substr(8,2)), " == ",  i )
+
+						if ( parseInt((o.id.trim()).substr(6,2)) == i ) {
+
+							// if ( o.id.trim() == "2021-07-11" ) {
+							// 	console.log(o.name, o.id + " : dd[", i, "] = ", o.value)
+							// }
+							// dd[i-1] += (parseInt(o.value) / 60)
+
+							dd[i-1] += parseFloat(o.value)
+
+						}
+					}
+				})
+
+				color = getColor(prop)
+
+				out.push({
+					label: prop.replace(/<br>+$/,''),
+					data: dd,
+					borderColor: cBorderColor[color],
+					pointBackgroundColor: cBorderColor[color],
+					// backgroundColor: cBGColor[colorCnt]
+					backgroundColor: 'whiteSmoke'
+				})
+			}
 
 		} else {
 
@@ -174,14 +217,17 @@ const Export = () => {
 
 				o[0].data[prop].forEach((o) => {
 
-					// console.log(o);
-
 					for ( let i = 1; i < 31; i++ ) {
 
-						if ( parseInt((o.id.trim()).substr(9,2)) == i ) {
+						// console.log( parseInt((o.id.trim()).substr(8,2)), " == ",  i )
 
-							// console.log(o.name, o.id + " : dd[", i, "] = ", o.value)
+						if ( parseInt((o.id.trim()).substr(8,2)) == i ) {
+
+							// if ( o.id.trim() == "2021-07-11" ) {
+							// 	console.log(o.name, o.id + " : dd[", i, "] = ", o.value)
+							// }
 							// dd[i-1] += (parseInt(o.value) / 60)
+
 							dd[i-1] += parseFloat(o.value)
 
 						}
@@ -301,7 +347,7 @@ const Export = () => {
 		if ( viewChartBy != "Monthly" ) {
 
 			period = moment().format('YYYY')
-			periodPos = 4
+			periodPos = 5
 
 		}
 
@@ -312,11 +358,13 @@ const Export = () => {
 		gRes = []
 		findNode(mmChart[0], '')
 
+		// console.log("chartlinedata: gRes - ", gRes);
+
 		// Convert to array
 		let ddArr = []
 		gRes.forEach(o => { ddArr.push(o.split(',')); });
 
-		// console.log(ddArr);
+		// console.log("chartlinedata: ddArr - ", ddArr);
 
 		// Calculate something
 		let res2
@@ -455,10 +503,11 @@ const Export = () => {
 
 			// By Sell Date
 
-			console.log("periodPos", periodPos);
+			// console.log("periodPos", periodPos);
 
 			if ( period == o[datePos].substring(0, periodPos).trim() ) {
 
+				// if ( o[datePos].trim() == "2021-07-09" ) { console.log(o[valuePos]); }
 				// console.log(o[3], o[o.length-2], o[o.length-1])
 				dt.push({name: 'Stock', story: o[3], id: o[datePos], value: parseFloat(o[valuePos]) })
 
@@ -489,9 +538,10 @@ const Export = () => {
 
 		o.forEach(o => {
 
+			// console.log("gentpomodoro: ", o[2], o[o.length-2], period, "=", o[o.length-2].substring(0, periodPos), "peroidpos=", periodPos, o[o.length-1])
+
 			if ( period == o[o.length-2].substring(0, periodPos).trim() ) {
 
-				// console.log(o[2], o[o.length-2], o[o.length-1])
 				dt.push({name: o[2].trim(), story: o[3].trim(), id: o[o.length-2], value: parseFloat(o[o.length-1]) })
 
 			}
@@ -620,15 +670,18 @@ const Export = () => {
 	const onViewChart = (e) => {
 
 		setViewChart(e)
-		chartLine(listChartData(e))
+		// chartLine(listChartData(e))
 
 	} // END: onViewChart
 
 
 	const onViewType = (e) => {
 
-		chart(listChartData(e))
-		chartLine(listChartData(e))
+
+		setViewType(e)
+		// chart(listChartData(e))
+		// chartLine(listChartData(e))
+
 		// console.log(e);
 		// setViewChart(e)
 
@@ -665,13 +718,22 @@ const Export = () => {
 
 	useEffect(() => {
 
-		// chart(listChartData(e))
-		// chartLine(listChartData(e))
+		chart(listChartData(viewType))
+		chartLine(listChartData(viewType))
 		// chartLine(viewChartBy)
 
 	}, [viewChartBy])
 
 
+	useEffect(() => {
+
+		chart(listChartData(viewType))
+		chartLine(listChartData(viewType))
+		// chart(listChartData(e))
+		// chartLine(listChartData(e))
+		// chartLine(viewChartBy)
+
+	}, [viewType])
 
 	
 
@@ -732,6 +794,7 @@ const Export = () => {
 				]}
 			>
 			</PageHeader>
+
 				<Row gutter={6}>
 					<Col span={13}>
 						<div dangerouslySetInnerHTML={{__html: htmlContent }} />
